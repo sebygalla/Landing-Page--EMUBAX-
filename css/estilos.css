@@ -90,24 +90,25 @@ body {
 
 .iglesia__container {
     width: 100vw;
-    /* background: rebeccapurple; */
+    background: rgb(65, 166, 220);
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 20em), 1fr));
 
     align-items: center;
     justify-content: center;
+  
 
     /* background: cornflowerblue; */
 }
 
 .iglesia__container--card {
     width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     z-index: 1;
+    margin: 10em auto ;
 
     background: rgb(83, 52, 220);
 }
@@ -191,6 +192,13 @@ body {
         position: absolute;
         top: 28px;
         right: 20px;
+    }
+
+    .iglesia__container--card {
+
+        margin: 7em auto ;
+    
+     
     }
 
     .iglesia__card {
