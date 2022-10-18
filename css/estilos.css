@@ -133,12 +133,20 @@ body {
 }
 
 .iglesia__card--uno {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 39%, rgba(0, 0, 0, 1) 80%), url(../imagenes/extendimosMesa\ de\ trabajo\ 12\ \(1\).png);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 39%, rgba(0, 0, 0, 1) 80%), url(/imagenes/presencial.jpg);
+    background-position: center;
     background-size: cover;
 }
 
 .iglesia__card--dos {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.61224471081744225) 39%, rgba(0, 0, 0, 1) 80%), url(/imagenes/emuba\x);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.61224471081744225) 39%, rgba(0, 0, 0, 1) 80%), url(/imagenes/online.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.iglesia__card--tres {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 39%, rgba(0, 0, 0, 1) 80%), url(/imagenes/extendimosMesa\ de\ trabajo\ 12\ \(1\).png);
+    background-position: center;
     background-size: cover;
 }
 
