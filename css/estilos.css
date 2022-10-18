@@ -139,7 +139,7 @@ body {
 }
 
 .iglesia__card--dos {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.61224471081744225) 39%, rgba(0, 0, 0, 1) 80%), url(/imagenes/online.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 39%, rgba(0, 0, 0, 1) 80%), url(/imagenes/online.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -218,4 +218,10 @@ body {
 }
 
 /* A20 Samsung */
-@media screen and (max-width: 424px) {}
+@media screen and (max-width: 424px) {
+    
+    .iglesia__card {
+        width: 90%;
+        height: 22vh;
+    }
+}
