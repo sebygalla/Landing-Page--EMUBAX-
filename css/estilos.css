@@ -151,11 +151,16 @@ body {
 }
 
 .iglesia__card--cuatro {
-    background-color: blueviolet;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 39%, rgba(0, 0, 0, 1) 80%), url(/imagenes/larevolucionz.jpg);
+    background-position: center;
+    background-size: cover;
+
 }
 
 .iglesia__card--cinco {
-    background-color: blueviolet;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 39%, rgba(0, 0, 0, 1) 80%), url(/imagenes/merch.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .iglesia__card--seis {
@@ -173,13 +178,13 @@ body {
 /* footer */
 
 footer {
-width: 100vw;
-height: 15em;
-position: relative;
-background: url(/imagenes/footer2.png);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+    width: 100vw;
+    height: 15em;
+    position: relative;
+    background: url(/imagenes/footer2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .footer__contenedor {
@@ -198,7 +203,7 @@ background-position: center;
 
 
 
-  
+
 
 
 }
@@ -210,7 +215,7 @@ background-position: center;
     color: white;
     z-index: 999;
     text-align: center;
- 
+
 
 }
 
