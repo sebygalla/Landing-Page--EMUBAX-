@@ -39,17 +39,17 @@ body {
     bottom: 0;
 
     z-index: 9;
-   
+
     margin: 0 auto;
 }
 
 .nav__logo img {
     width: 170px;
-  
+
 }
 
 .nav__link {
- 
+
     display: flex;
     list-style: none;
 
@@ -97,7 +97,7 @@ body {
 
     align-items: center;
     justify-content: center;
-  
+
 
     /* background: cornflowerblue; */
 }
@@ -108,7 +108,7 @@ body {
     flex-direction: column;
     text-align: center;
     z-index: 1;
-    margin: 10em auto ;
+    margin: 10em auto;
 
     /* background: rgb(83, 52, 220); */
 }
@@ -150,17 +150,81 @@ body {
     background-size: cover;
 }
 
+.iglesia__card--cuatro {
+    background-color: blueviolet;
+}
+
+.iglesia__card--cinco {
+    background-color: blueviolet;
+}
+
+.iglesia__card--seis {
+    background-color: blueviolet;
+}
+
+.iglesia__card--siete {
+    background-color: blueviolet;
+}
+
+.iglesia__card--ocho {
+    background-color: blueviolet;
+}
+
+/* footer */
+
+footer {
+width: 100vw;
+height: 15em;
+position: relative;
+background: url(/imagenes/footer2.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.footer__contenedor {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    text-align: center;
+
+
+
+
+  
+
+
+}
+
+.footer__contenedor p {
+    margin: 20px auto;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    z-index: 999;
+    text-align: center;
+ 
+
+}
+
 
 
 /* media querys */
 /* TabE Samsung */
 @media screen and (max-width: 820px) {
 
- 
+
     .nav__menu {
         display: block;
 
-     
+
     }
 
     .nav__menu img {
@@ -204,9 +268,9 @@ body {
 
     .iglesia__container--card {
 
-        margin: 7em auto ;
-    
-     
+        margin: 7em auto;
+
+
     }
 
     .iglesia__card {
@@ -219,7 +283,7 @@ body {
 
 /* A20 Samsung */
 @media screen and (max-width: 424px) {
-    
+
     .iglesia__card {
         width: 90%;
         height: 22vh;
