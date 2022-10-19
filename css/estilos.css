@@ -13,7 +13,7 @@ body {
 .nav {
     width: 100%;
     height: 80px;
-    background: salmon;
+    background: rgba(0, 0, 0, .3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
     height: 80px;
     max-width: 1200px;
     margin: 0 auto;
-    background: rgb(47, 240, 26);
+    /* background: rgba(0, 0, 0, .3); */
 
     display: flex;
     align-items: center;
@@ -68,8 +68,8 @@ body {
     display: none;
 }
 
-.nav__close {
-    display: var(--show, none);
+.nav__menu--close {
+    display: none;
 }
 
 
@@ -83,14 +83,14 @@ body {
     margin: 0 auto;
     overflow: hidden;
     /* padding: var(--padding-container); */
-    background: rgb(62, 150, 158);
+    /* background: rgb(62, 150, 158); */
 
     /* background: darkcyan; */
 }
 
 .iglesia__container {
     width: 100vw;
-    background: rgb(65, 166, 220);
+    /* background: rgb(65, 166, 220); */
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 20em), 1fr));
@@ -110,7 +110,7 @@ body {
     z-index: 1;
     margin: 10em auto ;
 
-    background: rgb(83, 52, 220);
+    /* background: rgb(83, 52, 220); */
 }
 
 .iglesia__card {
@@ -133,7 +133,7 @@ body {
 }
 
 .iglesia__card--uno {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 39%, rgba(0, 0, 0, 1) 80%), url(/imagenes/presencial.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3)39%, rgba(0, 0, 0, 1) 80%), url(/imagenes/presencial.jpg);
     background-position: center;
     background-size: cover;
 }
