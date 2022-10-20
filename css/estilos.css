@@ -9,15 +9,21 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #F2FF00;
 }
-
+/* barra de navegacion */
 .nav {
     width: 100%;
     height: 80px;
-    background: rgba(0, 0, 0, .3);
     display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
+    z-index: 9;
+}
+/* scroll sombra barra de navegacion */
+.nav--on{
+    background: rgba(0, 0, 0, .7);
+    height: 100px;
+    transition: .5s ease-in-out;
     z-index: 9;
 }
 
@@ -44,15 +50,17 @@ body {
 }
 
 .nav__logo img {
-    width: 170px;
-
+    width: 180px;
+}
+.nav__logo2 img{
+    display: none;
+    width: 180px;
 }
 
-.nav__link {
 
+.nav__link {
     display: flex;
     list-style: none;
-
 }
 
 .nav__links {
@@ -60,16 +68,17 @@ body {
     font-weight: 600;
     margin: 10px;
     text-decoration: none;
-    color: black;
-
+   
 }
 
 .nav__menu {
     display: none;
+   
 }
 
 .nav__menu--close {
     display: none;
+    z-index: 9999;
 }
 
 

@@ -1,24 +1,55 @@
+//scroll navbar
+window.addEventListener('scroll', () => {
+
+    const nav = document.querySelector('.nav');
+    const logoNegro = document.getElementById('logo');
+    const logoBlanco = document.getElementById('logo2');
+    const menu = document.querySelector('.nav__menu');
+    const img = document.getElementById('imagen');
+    const links = document.querySelector('.nav__links');
+
+
+    nav.classList.toggle('nav--on', window.scrollY > 0);
+
+    function cambioImg() {
+        if (window.scrollY > 0) {
+            img.src = "imagenes/logoBlanco.png";
+            menu.style.color = 'white';
+            links.style.color = 'white';
+        } else {
+            img.src = "imagenes/logoNegro.png";
+            menu.style.color = 'black';
+            links.style.color = 'black';
+
+        }
+    };
+    cambioImg();
+});
 
 
 
-function abrir (){
-    const openButton = document.querySelector('.nav__menu');
-    const menu = document.querySelector('.nav__link');
-    const closeMenu = document.querySelector('.nav__menu--close');
-   
-
-    openButton.addEventListener('click', () => {
-         menu.classList.add('nav__link--show');
-         menu.classList.add('.nav__menu--close')
-    
-    });
-
-    closeMenu.addEventListener('click', () => {
-        menu.classList.remove('nav__link--show');
-    });
 
 
-    
-};
+
+// function abrir() {
+//     const openButton = document.querySelector('.nav__menu');
+//     const menu = document.querySelector('.nav__link');
+//     const closeMenu = document.querySelector('.nav__menu--close');
+
+//     openButton.addEventListener('click', () => {
+//         // menu.classList.add('nav__link--show');
+//         menu.style.display = 'block';
+       
+       
+
+//     });
+
+//     closeMenu.addEventListener('click', () => {
+//         // menu.classList.remove('nav__link--show');
+//     });
+
+
+
+// };
 
 abrir();
