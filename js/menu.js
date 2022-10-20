@@ -1,14 +1,16 @@
 //scroll navbar
+
+const nav = document.querySelector('.nav');
+const logoNegro = document.getElementById('logo');
+const logoBlanco = document.getElementById('logo2');
+const menu = document.querySelector('.nav__menu');
+const img = document.getElementById('imagen');
+const links = document.querySelector('.nav__link a');
+const close = document.querySelector('.nav__menu--close');
+const enlaces = document.querySelector('.nav__link--menu');
+
+
 window.addEventListener('scroll', () => {
-
-    const nav = document.querySelector('.nav');
-    const logoNegro = document.getElementById('logo');
-    const logoBlanco = document.getElementById('logo2');
-    const menu = document.querySelector('.nav__menu');
-    const img = document.getElementById('imagen');
-    const links = document.querySelector('.nav__links');
-
-
     nav.classList.toggle('nav--on', window.scrollY > 0);
 
     function cambioImg() {
@@ -24,6 +26,14 @@ window.addEventListener('scroll', () => {
         }
     };
     cambioImg();
+});
+
+menu.addEventListener('click', ( )=>{
+    enlaces.style.opacity = 1;
+    menu.style.display = 'none';
+    close.style.display = 'block';
+    close.style.color ='white';
+
 });
 
 
