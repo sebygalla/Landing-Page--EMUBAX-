@@ -105,6 +105,8 @@ body {
     display: none;
     position: absolute;
     left: 180px;
+    transition: .1s ease-in-out;
+    
 }
 
 .nav__avatar {
