@@ -15,6 +15,7 @@ body {
 
     font-family: 'Poppins', sans-serif;
     background-color: #F2FF00;
+    scroll-behavior: smooth;
 }
 
 /* barra de navegacion */
@@ -106,7 +107,7 @@ body {
     position: absolute;
     left: 180px;
     transition: .1s ease-in-out;
-    
+
 }
 
 .nav__avatar {
