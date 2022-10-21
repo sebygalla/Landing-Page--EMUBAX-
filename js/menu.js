@@ -8,6 +8,8 @@ const img = document.getElementById('imagen');
 const links = document.querySelector('.nav__link a');
 const close = document.querySelector('.nav__menu--close');
 const enlaces = document.querySelector('.nav__link--menu');
+const subscribe = document.querySelector('.nav__subscribe');
+const avatar = document.querySelector('.nav__avatar');
 
 
 window.addEventListener('scroll', () => {
@@ -18,22 +20,30 @@ window.addEventListener('scroll', () => {
             img.src = "imagenes/logoBlanco.png";
             menu.style.color = 'white';
             links.style.color = 'white';
+            subscribe.style.display = 'flex';
         } else {
             img.src = "imagenes/logoNegro.png";
             menu.style.color = 'black';
             links.style.color = 'black';
+            subscribe.style.display = 'none';
 
         }
     };
     cambioImg();
 });
 
+// Menu desplegable
 menu.addEventListener('click', ( )=>{
     enlaces.style.opacity = 1;
     menu.style.display = 'none';
     close.style.display = 'block';
     close.style.color ='white';
+});
 
+close.addEventListener('click', () => {
+    enlaces.style.opacity = 0;
+    close.style.display = 'none';
+    menu.style.display = 'block';
 });
 
 
