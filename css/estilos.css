@@ -289,6 +289,9 @@ footer {
         width: 30px;
         cursor: pointer;
     }
+    .nav__logo{
+        margin-left: -23px;
+    }
 
     .nav__link--menu {
         position: fixed;
@@ -333,8 +336,8 @@ footer {
     }
 
     .iglesia__card {
-        width: 80%;
-        height: 22vh;
+        width: 90%;
+        height: 20vh;
     }
 
 
