@@ -204,6 +204,9 @@ body.dark nav a:hover {
     background: none;
     color: #fff;
 }
+.switch span i{
+    font-size: 20px;
+}
 
 
 
