@@ -135,7 +135,7 @@ body {
 
 /* nav dark mode */
 body.dark {
-    background: #111111;
+    background: #292929;
 }
 
 
@@ -369,6 +369,10 @@ footer {
 
     .nav__menu {
         display: block;
+        font-size: 30px;
+    }
+    .nav__menu--close {
+        font-size: 30px;
     }
 
     .nav__menu img {
@@ -382,7 +386,7 @@ footer {
 
     .nav__link--menu {
         position: fixed;
-        background: red;
+        background: #151E21;
         color: white;
         top: 0;
         left: 0;

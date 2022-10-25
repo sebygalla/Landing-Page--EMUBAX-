@@ -14,19 +14,20 @@ const avatar = document.querySelector('.nav__avatar');
 
 
 window.addEventListener('scroll', () => {
-    nav.classList.toggle('nav--on', window.scrollY>0);
+    nav.classList.toggle('nav--on', window.scrollY > 0);
 
     function cambioImg() {
-        if (window.scrollY>0) {
+        if (window.scrollY > 0) {
             img.src = "imagenes/logoBlanco.png";
             menu.style.color = 'white';
             links.style.color = 'white';
             subscribe.style.display = 'flex';
         } else {
-            
+
             logoDark.style.display = 'flex';
+
             menu.style.color = 'white';
-            links.style.color = 'black';
+            links.style.color = 'white';
             subscribe.style.display = 'none';
 
         }
