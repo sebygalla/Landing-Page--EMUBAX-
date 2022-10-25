@@ -24,14 +24,11 @@ window.addEventListener('scroll', () => {
             links.style.color = 'white';
             subscribe.style.display = 'flex';
         } else {
-
-            logoDark.style.display = 'flex';
-
-            menu.style.color = 'white';
-            links.style.color = 'white';
+            img.src = "imagenes/logoNegro.png";
+            menu.style.color = 'black';
+            links.style.color = 'black';
             subscribe.style.display = 'none';
        
-
         }
 
     };
@@ -63,20 +60,3 @@ close.addEventListener('click', () => {
 });
 
 
-//dark mode
-const btnSwitch = document.querySelector('#switch');
-
-btnSwitch.addEventListener('click', () => {
-    document.body.classList.toggle('dark');
-    let value = btnSwitch.classList.toggle('active');
-
-    localStorage.setItem("btnSwitch", value);
-});
-
-let valor = localStorage.getItem('btnSwitch');
-
-if (valor==="true") {
-    document.body.classList.add("dark");
-} else {
-    document.body.classList.remove("dark");
-}

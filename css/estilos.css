@@ -14,8 +14,6 @@
 body {
 
     font-family: 'Poppins', sans-serif;
-    /* background-color: #F2FF00; */
-    /* background-color: #F0DB4F; */
     background: yellow;
     scroll-behavior: smooth;
 }
@@ -30,7 +28,6 @@ body {
     position: fixed;
     z-index: 9;
 
-    background: rgba(0, 0, 0, .3);
 }
 
 /* scroll sombra barra de navegacion */
@@ -45,43 +42,36 @@ body {
     width: 90%;
     height: 80px;
     max-width: 1200px;
-    
-    /* background: rgba(0, 0, 0, .6); */
+    margin: 0 auto;
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-between;
 
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-
     z-index: 9;
 
-    margin: 0 auto;
+
 }
 
 .nav__logo img {
-    width: 200px;
+    width: 250px;
     position: relative;
     display: flex;
     margin: 0 auto;
+    margin-left: -30px;
 }
 
 .nav__logo2 img {
-    width: 180px;
+    width: 250px;
     position: relative;
     display: none;
-}
-.nav__logo3 img {
-    width: 180px;
-    position: relative;
-    display: none;
-}
 
+}
 
 .nav__link {
     display: flex;
@@ -92,7 +82,7 @@ body {
 .nav__link a {
     font-size: 15px;
     font-weight: 600;
-    margin: 10px;
+    margin: 30px;
     text-decoration: none;
 }
 
@@ -118,99 +108,20 @@ body {
     font-weight: 600;
     display: none;
     position: absolute;
-    left: 280px;
+    left: 220px;
     transition: .1s ease-in-out;
 
 }
 
 .nav__avatar {
     border-radius: 50%;
-    height: 54px;
     object-fit: cover;
     object-position: center;
-    width: 54px;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    right: 150px;
+    right: 100px;
 }
-
-/* nav dark mode */
-body.dark {
-    background: #292929;
-}
-
-
-body.dark nav {
-    background: rgba(0, 0, 0, .7);
-    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
-}
-
-body.dark nav a {
-    color: #C8C8C8;
-}
-
-body.dark nav a:hover {
-    color: #FEFEFE;
-}
-
-
-.switch {
-    margin: 0 0 0 0;
-    background: #343D5B;
-    border-radius: 1000px;
-    border: none;
-    position: relative;
-    cursor: pointer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    outline: none;
-}
-
-.switch::after {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    background: white;
-    top: -10;
-    left: 0;
-    right: unset;
-    border-radius: 100px;
-    -webkit-transition: .3s ease all;
-    transition: .3s ease all;
-    -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
-}
-
-.switch.active {
-    background: orange;
-    color: #000;
-}
-
-.switch.active::after {
-    right: 0;
-    left: unset;
-}
-
-.switch span {
-    width: 30px;
-    height: 30px;
-    line-height: 34px;
-    display: block;
-    background: none;
-    color: #fff;
-}
-.switch span i{
-    font-size: 20px;
-}
-
-
-
-
 
 
 /* Iglesia Cards */
@@ -317,9 +228,8 @@ footer {
     width: 100%;
     height: 15em;
     position: relative;
-    /* background: url(/imagenes/footer2.png); */
     background: url(/imagenes/footer1.png);
-    background-size: cover;
+    background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -347,6 +257,13 @@ footer {
     justify-content: stretch;
     text-align: center;
 
+
+    background: url(/imagenes/footer1.png);
+    background-position-y: -50px;
+    background-size: 520px;
+    background-repeat: no-repeat;
+
+
 }
 
 .footer__contenedor p {
@@ -371,6 +288,7 @@ footer {
         display: block;
         font-size: 30px;
     }
+
     .nav__menu--close {
         font-size: 30px;
     }
@@ -381,7 +299,7 @@ footer {
     }
 
     .nav__logo {
-        margin-left: -23px;
+        margin-left: 0px;
     }
 
     .nav__link--menu {
@@ -406,7 +324,7 @@ footer {
         pointer-events: none;
         z-index: 9;
         opacity: 0;
-     
+
         transition: .2s opacity;
 
 
@@ -430,9 +348,24 @@ footer {
         width: 90%;
         height: 20vh;
     }
-    .switch{
-        pointer-events: all;
+
+    footer {
+        background-size: 850px;
+        background-position-y: bottom;
+        background-repeat: repeat-x;
     }
+
+    .footer__contenedor {
+        background: url(/imagenes/footer1.png);
+        background-position-y: -250px;
+        background-size: cover;
+    }
+
+    .footer__social i{
+        font-size: 25px;
+    
+    }
+
 
 
 }
@@ -445,34 +378,44 @@ footer {
         height: 22vh;
     }
 
-    .nav__logo {
-        padding: 0;
-        margin-left: -40px;
+    .nav__logo img {
+        width: 200px;
+        margin-left: -26px;
     }
-    .nav__menu{
+
+    .nav__menu {
         font-size: 25px;
-        margin-right: -13px;
     }
 
     .nav__subscribe {
-        font-size: 8px;
+        font-size: 10px;
         left: 0px;
         top: 70px;
         padding: 0;
         margin: 0;
     }
-    .nav__subscribe img{
+
+    .nav__subscribe img {
         width: 15px;
         margin: 0;
         padding: 0;
     }
-    .switch{
-        pointer-events: all;
+
+    footer {
+        background-size: 550px;
+        background-position-y: 100px;
+        background-repeat: repeat-x;
+    }
+
+    .footer__contenedor {
+        background: url(/imagenes/footer1.png);
+        background-position-y: -20px;
+        background-size: cover;
     }
 
     .footer__social i {
         color: white;
-        font-size: 25px;
+        font-size: 20px;
         margin: 120px 10px 0px;
     }
 }
