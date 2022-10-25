@@ -29,6 +29,8 @@ body {
     justify-content: center;
     position: fixed;
     z-index: 9;
+
+    background: rgba(0, 0, 0, .3);
 }
 
 /* scroll sombra barra de navegacion */
@@ -43,12 +45,13 @@ body {
     width: 90%;
     height: 80px;
     max-width: 1200px;
-    margin: 0 auto;
-    /* background: rgba(0, 0, 0, .3); */
+    
+    /* background: rgba(0, 0, 0, .6); */
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 
     position: fixed;
     top: 0;
@@ -62,13 +65,21 @@ body {
 }
 
 .nav__logo img {
-    width: 180px;
+    width: 200px;
     position: relative;
+    display: flex;
+    margin: 0 auto;
 }
 
 .nav__logo2 img {
-    display: none;
     width: 180px;
+    position: relative;
+    display: none;
+}
+.nav__logo3 img {
+    width: 180px;
+    position: relative;
+    display: none;
 }
 
 
@@ -107,7 +118,7 @@ body {
     font-weight: 600;
     display: none;
     position: absolute;
-    left: 180px;
+    left: 280px;
     transition: .1s ease-in-out;
 
 }
@@ -144,7 +155,7 @@ body.dark nav a:hover {
 
 
 .switch {
-
+    margin: 0 0 0 0;
     background: #343D5B;
     border-radius: 1000px;
     border: none;
@@ -153,6 +164,8 @@ body.dark nav a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    align-items: center;
+    justify-content: center;
     outline: none;
 }
 
@@ -162,8 +175,8 @@ body.dark nav a:hover {
     width: 30px;
     height: 30px;
     position: absolute;
-    background: #F1F1F1;
-    top: 3px;
+    background: white;
+    top: -10;
     left: 0;
     right: unset;
     border-radius: 100px;
@@ -186,7 +199,7 @@ body.dark nav a:hover {
 .switch span {
     width: 30px;
     height: 30px;
-    line-height: 35px;
+    line-height: 34px;
     display: block;
     background: none;
     color: #fff;
@@ -427,26 +440,27 @@ footer {
 
     .nav__logo {
         padding: 0;
-        margin-left: -20px;
+        margin-left: -40px;
+    }
+    .nav__menu{
+        font-size: 25px;
+        margin-right: -13px;
     }
 
     .nav__subscribe {
-        font-size: 10px;
-        left: 160px;
+        font-size: 8px;
+        left: 0px;
+        top: 70px;
+        padding: 0;
+        margin: 0;
+    }
+    .nav__subscribe img{
+        width: 15px;
+        margin: 0;
+        padding: 0;
     }
     .switch{
         pointer-events: all;
-    }
-
-    .switch::after {
-        content: "";
-        display: block;
-        width: 30px;
-        height: 30px;
-        position: absolute;
-        background: #F1F1F1;
-        top: 0;
-        left: 0;
     }
 
     .footer__social i {

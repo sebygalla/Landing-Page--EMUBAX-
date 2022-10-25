@@ -3,6 +3,7 @@
 const nav = document.querySelector('.nav');
 const logoNegro = document.getElementById('logo');
 const logoBlanco = document.getElementById('logo2');
+const logoDark = document.getElementById('logo3');
 const menu = document.querySelector('.nav__menu');
 const img = document.getElementById('imagen');
 const links = document.querySelector('.nav__link a');
@@ -13,18 +14,18 @@ const avatar = document.querySelector('.nav__avatar');
 
 
 window.addEventListener('scroll', () => {
-    nav.classList.toggle('nav--on', window.scrollY > 0);
+    nav.classList.toggle('nav--on', window.scrollY>0);
 
     function cambioImg() {
-        if (window.scrollY > 0) {
+        if (window.scrollY>0) {
             img.src = "imagenes/logoBlanco.png";
             menu.style.color = 'white';
             links.style.color = 'white';
             subscribe.style.display = 'flex';
-
         } else {
-            img.src = "imagenes/logoNegro.png";
-            menu.style.color = 'black';
+            
+            logoDark.style.display = 'flex';
+            menu.style.color = 'white';
             links.style.color = 'black';
             subscribe.style.display = 'none';
 
@@ -33,6 +34,8 @@ window.addEventListener('scroll', () => {
     };
 
     cambioImg();
+
+
 
 });
 
