@@ -129,7 +129,7 @@ body.dark {
 
 
 body.dark nav {
-    background: #222222;
+    background: rgba(0, 0, 0, .7);
     -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
 }
@@ -382,9 +382,11 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        z-index: 99999;
-        opacity: 0;
+
         pointer-events: none;
+        z-index: 9;
+        opacity: 0;
+     
         transition: .2s opacity;
 
 
@@ -400,19 +402,6 @@ footer {
         display: none;
     }
 
-    .switch::after {
-        content: "";
-        display: block;
-        width: 30px;
-        height: 30px;
-        position: absolute;
-        background: #F1F1F1;
-        top: 0;
-        left: 0;
-    }
-
-
-
     .iglesia__container--card {
         margin: 7em auto;
     }
@@ -420,6 +409,9 @@ footer {
     .iglesia__card {
         width: 90%;
         height: 20vh;
+    }
+    .switch{
+        pointer-events: all;
     }
 
 
@@ -441,6 +433,9 @@ footer {
     .nav__subscribe {
         font-size: 10px;
         left: 160px;
+    }
+    .switch{
+        pointer-events: all;
     }
 
     .switch::after {

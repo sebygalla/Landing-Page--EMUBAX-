@@ -21,19 +21,26 @@ window.addEventListener('scroll', () => {
             menu.style.color = 'white';
             links.style.color = 'white';
             subscribe.style.display = 'flex';
-            botonDark.style.color = 'red';
 
         } else {
             img.src = "imagenes/logoNegro.png";
             menu.style.color = 'black';
             links.style.color = 'black';
             subscribe.style.display = 'none';
-            botonDark.style.color = 'black';
 
         }
+
     };
+
     cambioImg();
+
 });
+
+
+
+
+
+
 
 // Menu desplegable
 menu.addEventListener('click', () => {
@@ -49,41 +56,12 @@ close.addEventListener('click', () => {
     menu.style.display = 'block';
 });
 
-//dark mode
 
+//dark mode
 const btnSwitch = document.querySelector('#switch');
 
 btnSwitch.addEventListener('click', () => {
     document.body.classList.toggle('dark');
     btnSwitch.classList.toggle('active');
+
 });
-
-
-
-
-
-
-
-
-// function abrir() {
-//     const openButton = document.querySelector('.nav__menu');
-//     const menu = document.querySelector('.nav__link');
-//     const closeMenu = document.querySelector('.nav__menu--close');
-
-//     openButton.addEventListener('click', () => {
-//         // menu.classList.add('nav__link--show');
-//         menu.style.display = 'block';
-
-
-
-//     });
-
-//     closeMenu.addEventListener('click', () => {
-//         // menu.classList.remove('nav__link--show');
-//     });
-
-
-
-// };
-
-abrir();
