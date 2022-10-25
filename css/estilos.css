@@ -119,10 +119,78 @@ body {
     object-position: center;
     width: 54px;
     position: absolute;
-    right: 80px;
+    right: 150px;
+}
+
+/* nav dark mode */
+body.dark {
+    background: #111111;
 }
 
 
+body.dark nav {
+    background: #222222;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark nav a {
+    color: #C8C8C8;
+}
+
+body.dark nav a:hover {
+    color: #FEFEFE;
+}
+
+
+.switch {
+
+    background: #343D5B;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    outline: none;
+}
+
+.switch::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #F1F1F1;
+    top: 3px;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.switch.active {
+    background: orange;
+    color: #000;
+}
+
+.switch.active::after {
+    right: 0;
+    left: unset;
+}
+
+.switch span {
+    width: 30px;
+    height: 30px;
+    line-height: 35px;
+    display: block;
+    background: none;
+    color: #fff;
+}
 
 
 
@@ -241,10 +309,10 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 
-.footer__social i{
+.footer__social i {
     color: white;
     font-size: 25px;
     margin: 100px 30px 0px;
@@ -291,7 +359,8 @@ footer {
         width: 30px;
         cursor: pointer;
     }
-    .nav__logo{
+
+    .nav__logo {
         margin-left: -23px;
     }
 
@@ -331,6 +400,17 @@ footer {
         display: none;
     }
 
+    .switch::after {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background: #F1F1F1;
+        top: 0;
+        left: 0;
+    }
+
 
 
     .iglesia__container--card {
@@ -363,7 +443,18 @@ footer {
         left: 160px;
     }
 
-    .footer__social i{
+    .switch::after {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background: #F1F1F1;
+        top: 0;
+        left: 0;
+    }
+
+    .footer__social i {
         color: white;
         font-size: 25px;
         margin: 120px 10px 0px;

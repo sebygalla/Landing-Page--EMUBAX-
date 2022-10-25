@@ -21,11 +21,14 @@ window.addEventListener('scroll', () => {
             menu.style.color = 'white';
             links.style.color = 'white';
             subscribe.style.display = 'flex';
+            botonDark.style.color = 'red';
+
         } else {
             img.src = "imagenes/logoNegro.png";
             menu.style.color = 'black';
             links.style.color = 'black';
             subscribe.style.display = 'none';
+            botonDark.style.color = 'black';
 
         }
     };
@@ -33,11 +36,11 @@ window.addEventListener('scroll', () => {
 });
 
 // Menu desplegable
-menu.addEventListener('click', ( )=>{
+menu.addEventListener('click', () => {
     enlaces.style.opacity = 1;
     menu.style.display = 'none';
     close.style.display = 'block';
-    close.style.color ='white';
+    close.style.color = 'white';
 });
 
 close.addEventListener('click', () => {
@@ -45,6 +48,17 @@ close.addEventListener('click', () => {
     close.style.display = 'none';
     menu.style.display = 'block';
 });
+
+//dark mode
+
+const btnSwitch = document.querySelector('#switch');
+
+btnSwitch.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    btnSwitch.classList.toggle('active');
+});
+
+
 
 
 
@@ -59,8 +73,8 @@ close.addEventListener('click', () => {
 //     openButton.addEventListener('click', () => {
 //         // menu.classList.add('nav__link--show');
 //         menu.style.display = 'block';
-       
-       
+
+
 
 //     });
 

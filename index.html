@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body>
+<body class="body">
     <!-- header -->
     <header id="hero">
         <!-- contenedor nav -->
@@ -32,17 +32,24 @@
 
                 <div class="nav__subscribe">
                     <img src="imagenes/verificado.png" width="20px" alt="">SUSCRIBIRME
-                    
+
                 </div>
 
-                <!-- navbar -->
-                <ul class="nav__link nav__link--menu">
+                <!-- dark mode -->
 
-                    <li>
-                        <a href="#">Login</a>
-                    </li>
 
-                </ul>
+
+                <!-- navbar menu -->
+                <div class="nav__link nav__link--menu">
+                    <a href="#">Login</a>
+
+
+                    <button class="switch" id="switch">
+                        <span><i class="fas fa-sun"></i></span>
+                        <span><i class="fas fa-moon"></i></span>
+                    </button>
+
+                </div>
 
                 <img class="nav__avatar" src="imagenes/avatar.jpg">
 
