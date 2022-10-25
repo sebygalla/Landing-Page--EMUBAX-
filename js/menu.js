@@ -68,14 +68,14 @@ const btnSwitch = document.querySelector('#switch');
 
 btnSwitch.addEventListener('click', () => {
     document.body.classList.toggle('dark');
-    let val = btnSwitch.classList.toggle('active');
+    let value = btnSwitch.classList.toggle('active');
 
-    localStorage.setItem("btnSwitch", val);
+    localStorage.setItem("btnSwitch", value);
 });
 
 let valor = localStorage.getItem('btnSwitch');
 
-if (valor=="true") {
+if (valor==="true") {
     document.body.classList.add("dark");
 } else {
     document.body.classList.remove("dark");
