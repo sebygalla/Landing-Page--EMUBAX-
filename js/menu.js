@@ -11,6 +11,7 @@ const close = document.querySelector('.nav__menu--close');
 const enlaces = document.querySelector('.nav__link--menu');
 const subscribe = document.querySelector('.nav__subscribe');
 const avatar = document.querySelector('.nav__avatar');
+const body = document.querySelector('.body');
 
 
 window.addEventListener('scroll', () => {
@@ -29,6 +30,7 @@ window.addEventListener('scroll', () => {
             menu.style.color = 'white';
             links.style.color = 'white';
             subscribe.style.display = 'none';
+       
 
         }
 
@@ -66,6 +68,15 @@ const btnSwitch = document.querySelector('#switch');
 
 btnSwitch.addEventListener('click', () => {
     document.body.classList.toggle('dark');
-    btnSwitch.classList.toggle('active');
+    let val = btnSwitch.classList.toggle('active');
 
+    localStorage.setItem("btnSwitch", val);
 });
+
+let valor = localStorage.getItem('btnSwitch');
+
+if (valor=="true") {
+    document.body.classList.add("dark");
+} else {
+    document.body.classList.remove("dark");
+}
