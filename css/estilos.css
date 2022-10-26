@@ -410,17 +410,22 @@ footer {
         background-size: 550px;
         background-position-y: 100px;
         background-repeat: repeat-x;
+        
     }
 
     .footer__contenedor {
         background: url(/imagenes/footer1.png);
         background-position-y: -20px;
         background-size: cover;
+      
     }
 
     .footer__social i {
         color: white;
         font-size: 20px;
-        margin: 120px 10px 0px;
+        margin: 140px 10px 0px 0px;    
+    }
+    .footer__social{
+        z-index: 8;
     }
 }
