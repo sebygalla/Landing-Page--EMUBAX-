@@ -229,7 +229,7 @@ footer {
     height: 15em;
     position: relative;
     background: url(/imagenes/footer1.png);
-    background-size: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -254,14 +254,14 @@ footer {
 
     display: flex;
     align-items: center;
-    justify-content: stretch;
+    justify-content: center;
     text-align: center;
 
 
     background: url(/imagenes/footer1.png);
-    background-position-y: -50px;
-    background-size: 520px;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position-y: -220px;
 
 
 }
