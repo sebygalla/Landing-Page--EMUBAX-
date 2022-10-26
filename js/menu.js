@@ -26,7 +26,7 @@ window.addEventListener('scroll', () => {
         } else {
             img.src = "imagenes/logoNegro.png";
             menu.style.color = 'black';
-            links.style.color = 'black';
+            links.style.color = 'white';
             subscribe.style.display = 'none';
        
         }
