@@ -178,13 +178,13 @@ body {
 }
 
 .iglesia__card--uno {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 1) 85%), url(/imagenes/presencial.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%), url(/imagenes/presencial.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .iglesia__card--dos {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 1) 85%), url(/imagenes/online.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%), url(/imagenes/online.jpg);
     background-position: center;
     background-size: cover;
 
@@ -192,26 +192,31 @@ body {
 }
 
 .iglesia__card--tres {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 1) 85%), url(/imagenes/extendimosMesa\ de\ trabajo\ 12\ \(1\).png);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%), url(/imagenes/extendimosMesa\ de\ trabajo\ 12\ \(1\).png);
     background-position: center;
     background-size: cover;
 }
 
 .iglesia__card--cuatro {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 1) 85%), url(/imagenes/larevolucionz.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%), url(/imagenes/instagram.png);
     background-position: center;
     background-size: cover;
 
 }
 
 .iglesia__card--cinco {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 1) 85%), url(/imagenes/merch.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%), url(/imagenes/youtube.png);
     background-position: center;
     background-size: cover;
 }
 
 .iglesia__card--seis {
-    background-color: blueviolet;
+    
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%), url(/imagenes/gorra.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: blue;
 }
 
 .iglesia__card--siete {
@@ -346,7 +351,7 @@ footer {
 
     .iglesia__card {
         width: 90%;
-        height: 20vh;
+        height: 30vh;
     }
 
     footer {
