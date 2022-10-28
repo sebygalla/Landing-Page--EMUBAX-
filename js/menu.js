@@ -50,7 +50,7 @@ menu.addEventListener('click', () => {
     enlaces.style.opacity = 1;
     menu.style.display = 'none';
     close.style.display = 'block';
-    close.style.color = 'white';
+    close.style.color = 'white'; 
 });
 
 close.addEventListener('click', () => {

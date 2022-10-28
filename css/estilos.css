@@ -34,7 +34,7 @@ body {
 .nav--on {
     background: rgba(0, 0, 0, .7);
     height: 100px;
-    transition: .3s ease-in-out;
+    transition: 1s ease-in-out;
     z-index: 9;
 }
 
@@ -77,6 +77,7 @@ body {
     display: flex;
     list-style: none;
     position: relative;
+   
 
 }
 
@@ -86,6 +87,7 @@ body {
     margin: 30px;
     text-decoration: none;
     color: black;
+  
 }
 
 .nav__menu {
@@ -93,6 +95,7 @@ body {
     display: none;
 
 }
+
 
 .nav__menu--close {
     font-size: 20px;
@@ -311,6 +314,7 @@ footer {
 
     .nav__link {
         color: white;
+     
     }
 
     .nav__link--menu {
@@ -322,11 +326,8 @@ footer {
         right: 0;
         bottom: 0;
 
-        padding: 0;
-        margin: 0;
-
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -335,9 +336,7 @@ footer {
         pointer-events: none;
         z-index: 9;
         opacity: 0;
-
         transition: .2s opacity;
-
 
     }
 
@@ -345,6 +344,7 @@ footer {
         color: white;
         font-size: 25px;
         z-index: 9999;
+        
     }
 
     .nav__avatar {
