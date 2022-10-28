@@ -41,7 +41,7 @@ body {
 
 .preloader__img {
     width: 50%;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     animation: move 2s  ease-in-out;
 }
 
@@ -431,6 +431,13 @@ footer {
 
 /* A20 Samsung */
 @media screen and (max-width: 424px) {
+
+    
+.preloader__img {
+    width: 70%;
+    margin-bottom: 50px;
+    animation: move 2s  ease-in-out;
+}
 
     .iglesia__card {
         width: 90%;
