@@ -1,5 +1,17 @@
-//scroll navbar
+//variable preloader
+const preloader = document.querySelector('.preloader');
 
+window.onload = function () 
+{  
+    setTimeout(() => {
+        preloader.style.display = 'none';
+      }, 4000)
+    
+}
+
+
+
+// Variables
 const nav = document.querySelector('.nav');
 const logoNegro = document.getElementById('logo');
 const logoBlanco = document.getElementById('logo2');
@@ -13,6 +25,7 @@ const subscribe = document.querySelector('.nav__subscribe');
 const avatar = document.querySelector('.nav__avatar');
 const body = document.querySelector('.body');
 
+//scroll navbar
 
 window.addEventListener('scroll', () => {
     nav.classList.toggle('nav--on', window.scrollY > 0);
@@ -23,21 +36,25 @@ window.addEventListener('scroll', () => {
             menu.style.color = 'white';
             links.style.color = 'white';
             subscribe.style.display = 'flex';
+            
+
         } else {
             img.src = "imagenes/logoNegro.png";
             menu.style.color = 'black';
             links.style.color = 'black';
             subscribe.style.display = 'none';
-       
+
+
         }
 
     };
 
     cambioImg();
 
-
-
 });
+
+
+
 
 
 
@@ -50,13 +67,14 @@ menu.addEventListener('click', () => {
     enlaces.style.opacity = 1;
     menu.style.display = 'none';
     close.style.display = 'block';
-    close.style.color = 'white'; 
+    close.style.color = 'white';
+   
+
 });
 
 close.addEventListener('click', () => {
     enlaces.style.opacity = 0;
     close.style.display = 'none';
     menu.style.display = 'block';
+
 });
-
-
