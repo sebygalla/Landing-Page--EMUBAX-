@@ -33,14 +33,12 @@ body {
     bottom: 0;
     z-index: 9999;
 
-    transition: all 2s ease-in-out;
-
 }
 
 
 
 .preloader__img {
-    width: 50%;
+    width: 20%;
     /* margin-bottom: 50px; */
     animation: move 2s  ease-in-out;
 }
@@ -56,8 +54,11 @@ body {
        
     }
 
+
+
     100% {
         scale: 1;
+      
     }
 }
 
