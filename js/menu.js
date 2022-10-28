@@ -5,7 +5,7 @@ window.onload = function ()
 {  
     setTimeout(() => {
         preloader.style.display = 'none';
-      }, 2000)
+      }, 3000)
     
 }
 
