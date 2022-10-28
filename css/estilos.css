@@ -434,7 +434,7 @@ footer {
 
     
 .preloader__img {
-    width: 70%;
+    width: 50%;
     margin-bottom: 50px;
     animation: move 2s  ease-in-out;
 }
