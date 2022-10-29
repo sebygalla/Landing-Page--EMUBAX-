@@ -39,8 +39,9 @@ body {
 
 .preloader__img {
     width: 20%;
+    filter: drop-shadow(0 0 0.75rem crimson);
     /* margin-bottom: 50px; */
-    animation: move 2s  ease-in-out;
+    animation: move 2s ease-in-out;
 }
 
 @keyframes move {
@@ -51,14 +52,14 @@ body {
     50% {
         transform: rotate(180deg);
         scale: 1;
-       
+
     }
 
 
 
     100% {
         scale: 1;
-      
+
     }
 }
 
@@ -104,30 +105,21 @@ body {
 }
 
 .nav__logo img {
-    width: 250px;
+    width: 200px;
     position: relative;
     display: flex;
     margin: 0 auto;
     margin-left: -30px;
 }
 
-.nav__logo2 img {
-    width: 250px;
-    position: relative;
-    display: none;
-
-}
-
 .nav__link {
     display: flex;
     list-style: none;
     position: relative;
-
-
 }
 
 .nav__link a {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
     margin: 30px;
     text-decoration: none;
@@ -433,12 +425,12 @@ footer {
 /* A20 Samsung */
 @media screen and (max-width: 424px) {
 
-    
-.preloader__img {
-    width: 50%;
-    margin-bottom: 70px;
-    animation: move 2s  ease-in-out;
-}
+
+    .preloader__img {
+        width: 50%;
+        margin-bottom: 70px;
+        animation: move 2s ease-in-out;
+    }
 
     .iglesia__card {
         width: 90%;
@@ -446,16 +438,16 @@ footer {
     }
 
     .nav__logo img {
-        width: 200px;
+        width: 180px;
         margin-left: -26px;
     }
 
     .nav__menu {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .nav__subscribe {
-        font-size: 10px;
+        font-size: 9px;
         left: 0px;
         top: 70px;
         padding: 0;
