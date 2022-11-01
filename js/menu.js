@@ -25,8 +25,8 @@ const subscribe = document.querySelector('.nav__subscribe');
 const avatar = document.querySelector('.nav__avatar');
 const body = document.querySelector('.body');
 
-//scroll navbar
 
+//scroll navbar
 window.addEventListener('scroll', () => {
     nav.classList.toggle('nav--on', window.scrollY > 0);
 
