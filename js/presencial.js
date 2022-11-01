@@ -1,3 +1,5 @@
+AOS.init();
+
 // Variables
 const nav = document.querySelector('.nav');
 const logoNegro = document.getElementById('logo');
@@ -37,3 +39,4 @@ window.addEventListener('scroll', () => {
     cambioImg();
 
 });
+
