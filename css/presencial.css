@@ -68,6 +68,7 @@ body {
 }
 
 .nav__menu--volver {
+    color: black;
     font-size: 20px;
     cursor: pointer;
     display: flex;
@@ -263,15 +264,15 @@ footer {
         position: absolute;
         bottom: 0;
         left: 0;
-    
-    
+
+
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-    
-    
-      
+
+
+
     }
 
     .footer__social i {
@@ -310,6 +311,26 @@ footer {
         padding: 0;
     }
 
+    .iglesia__container--info {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        z-index: 1;
+        margin: 8em auto 2em;
+
+        /* background: rgb(83, 52, 220); */
+    }
+
+    .iglesia__parrafo {
+        font-size: 12px;
+        line-height: normal;
+        text-align: center;
+    }
+
+
+
+
     footer {
         width: 100%;
         height: 250px;
@@ -323,15 +344,11 @@ footer {
         position: absolute;
         bottom: 0;
         left: 0;
-    
-    
+
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-    
-    
-      
     }
 
     .footer__social i {
