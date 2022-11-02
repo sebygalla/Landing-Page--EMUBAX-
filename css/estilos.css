@@ -185,7 +185,7 @@ body {
     /* background: cornflowerblue; */
 }
 
-.iglesia__card a {
+.iglesia__card--ancla {
     transition-property: background, filter, opacity;
     outline: none;
     transition-duration: .6s;
