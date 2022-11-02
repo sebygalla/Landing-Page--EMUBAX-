@@ -12,7 +12,6 @@
 }
 
 body {
-
     font-family: 'Poppins', sans-serif;
     background: yellow;
     scroll-behavior: smooth;
@@ -68,11 +67,17 @@ body {
 }
 
 .nav__menu--volver {
+    list-style: none;
+    text-decoration: none;
     color: black;
     font-size: 20px;
     cursor: pointer;
     display: flex;
     z-index: 99999;
+}
+
+.nav__menu--volver i {
+    color: black;
 }
 
 .nav__subscribe {
@@ -104,6 +109,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .iglesia__container--info {
@@ -116,14 +122,45 @@ body {
 
 }
 
+.iglesia__container--grid{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    position: relative;
+    align-items: center;
+}
 
-.iglesia__parrafo {
+.iglesia__container--titulo{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: left;
+    color: red;
+    margin: 40px 0 40px 0;
+}
+
+.iglesia__container--tituloDos {
     font-family: 'Press Start 2P', cursive;
     font-size: 15px;
     line-height: 25px;
-    text-align: justify;
+    text-align: left;
+    color: red;
+    margin: 40px 0 40px 0;
+}
+
+.iglesia__container--parrafo {
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
     color: black;
     margin-bottom: 20px;
+}
+
+.iglesia__container--parrafo span{
+    font-weight: bold;
+    color: blueviolet;
 }
 
 .iglesia__card--uno {
@@ -133,15 +170,12 @@ body {
 }
 
 .imgOrador {
-    width: 600px;
+    width: 350px;
     filter: drop-shadow(0 0 0.75rem black);
-
 }
 
 .contImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    z-index: 0;
 }
 
 /* footer */
@@ -259,6 +293,19 @@ footer {
         height: 30vh;
     }
 
+    .iglesia__container--titulo {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+        color: black;
+        margin: 0 0 30px 0;
+    }
+
+    .iglesia__container--parrafo {
+        line-height: 30px;
+    }
+
     footer {
         position: absolute;
         bottom: -30%;
@@ -325,23 +372,37 @@ footer {
         flex-direction: column;
         text-align: center;
         z-index: 1;
-        margin: 8em auto 2em;
-
-        /* background: rgb(83, 52, 220); */
+        margin: 8em auto -8em;
     }
 
-    .iglesia__parrafo {
+    .iglesia__container--grid{
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        position: relative;
+        align-items: center;
+    }
+
+    .iglesia__container--titulo {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: black;
+        margin-bottom: 50px;
+    }
+
+    .iglesia__container--parrafo {
+        width: 100%;
         font-size: 12px;
-        line-height: normal;
+        line-height: 25px;
         text-align: justify;
     }
 
     .imgOrador {
-        width: 400px;
+        margin: 0 auto;
+        width: 300px;
     }
-
-
-
 
     footer {
         width: 100%;

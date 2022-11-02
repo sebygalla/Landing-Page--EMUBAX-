@@ -11,7 +11,7 @@ const enlaces = document.querySelector('.nav__link--menu');
 const subscribe = document.querySelector('.nav__subscribe');
 const avatar = document.querySelector('.nav__avatar');
 const body = document.querySelector('.body');
-const volver = document.querySelector('.nav__menu--volver');
+const volver = document.querySelector('.nav__menu--volver i');
 
 //scroll navbar
 window.addEventListener('scroll', () => {
@@ -22,7 +22,7 @@ window.addEventListener('scroll', () => {
             img.src = "imagenes/logoBlanco.png";
             volver.style.color = 'white';
             subscribe.style.display = 'flex';
-            
+
 
         } else {
             img.src = "imagenes/logoNegro.png";
@@ -37,4 +37,3 @@ window.addEventListener('scroll', () => {
     cambioImg();
 
 });
-
