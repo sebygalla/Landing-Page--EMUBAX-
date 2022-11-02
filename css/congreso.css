@@ -432,7 +432,8 @@ footer {
     }
 
     .iglesia__container--tituloDos {
-        line-height: 25px;
+        font-size: 12px;
+        line-height: 22px;
         text-align: center;
 
     }
@@ -441,7 +442,7 @@ footer {
         width: 100%;
         font-size: 12px;
         line-height: 20px;
-        text-align: justify;
+        text-align:justify;
     }
 
     .iglesia__container--parrafoDos {
