@@ -32,14 +32,11 @@ body {
     right: 0;
     bottom: 0;
     z-index: 9999;
-
 }
 
-
-
 .preloader__img {
-    width: 20%;
-    filter: drop-shadow(0 0 0.75rem crimson);
+    width: 40%;
+    filter: drop-shadow(0 0 0.75rem black);
     /* margin-bottom: 50px; */
     animation: move 2s ease-in-out;
 }
