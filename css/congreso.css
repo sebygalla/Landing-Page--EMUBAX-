@@ -128,11 +128,12 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     position: relative;
     align-items: center;
+    margin-bottom: 13em;
 }
 
 .iglesia__container--titulo{
     font-family: 'Press Start 2P', cursive;
-    font-size: 25px;
+    font-size: 40px;
     line-height: 25px;
     text-align: left;
     color: red;
@@ -141,11 +142,11 @@ body {
 
 .iglesia__container--tituloDos {
     font-family: 'Press Start 2P', cursive;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 25px;
     text-align: left;
     color: red;
-    margin: 40px 0 40px 0;
+    margin: 40px 0 80px 0;
 }
 
 .iglesia__container--parrafo {
@@ -295,15 +296,19 @@ footer {
 
     .iglesia__container--titulo {
         font-family: 'Press Start 2P', cursive;
-        font-size: 25px;
+        font-size: 40px;
         line-height: 40px;
         text-align: center;
-        color: black;
+        color: violet;
         margin: 0 0 30px 0;
     }
 
     .iglesia__container--parrafo {
         line-height: 30px;
+    }
+
+    .iglesia__container--grid{
+        grid-gap: 30px;
     }
 
     footer {
@@ -325,9 +330,6 @@ footer {
         align-items: center;
         justify-content: center;
         text-align: center;
-
-
-
     }
 
     .footer__social i {
@@ -339,13 +341,10 @@ footer {
         z-index: 8;
     }
 
-
-
 }
 
 /* A20 Samsung */
 @media screen and (max-width: 424px) {
-
 
     .nav__logo img {
         width: 180px;
@@ -377,7 +376,7 @@ footer {
 
     .iglesia__container--grid{
         display: grid;
-        grid-gap: 0px;
+        grid-gap: 30px;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         position: relative;
         align-items: center;
@@ -385,23 +384,29 @@ footer {
 
     .iglesia__container--titulo {
         font-family: 'Press Start 2P', cursive;
-        font-size: 20px;
+        font-size: 30px;
         line-height: 25px;
         text-align: center;
-        color: black;
+        color: violet;
         margin-bottom: 50px;
+    }
+
+    .iglesia__container--tituloDos {
+        line-height: 25px;
+        text-align: center;
+      
     }
 
     .iglesia__container--parrafo {
         width: 100%;
         font-size: 12px;
-        line-height: 25px;
+        line-height: 20px;
         text-align: justify;
     }
 
     .imgOrador {
         margin: 0 auto;
-        width: 300px;
+        width: 250px;
     }
 
     footer {
