@@ -279,8 +279,11 @@ footer {
         line-height: 40px;
         text-align: center;
         color: black;
-        margin: 0 0 0 0px;
-    
+        margin: 0 0 30px 0;
+    }
+
+    .iglesia__container--parrafo{
+        line-height: 30px;
     }
 
     footer {
@@ -351,7 +354,6 @@ footer {
         z-index: 1;
         margin: 8em auto -8em;
 
-        /* background: rgb(83, 52, 220); */
     }
 
     .iglesia__container--titulo{
@@ -361,7 +363,6 @@ footer {
         text-align: center;
         color: black;
         margin-bottom: 50px;
-    
     }
 
     .iglesia__container--parrafo {
@@ -374,9 +375,6 @@ footer {
     .imgOrador{
         width: 400px;
     }
-
-
-
 
     footer {
         width: 100%;
