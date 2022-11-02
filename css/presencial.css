@@ -12,7 +12,6 @@
 }
 
 body {
-
     font-family: 'Poppins', sans-serif;
     background: yellow;
     scroll-behavior: smooth;
@@ -123,6 +122,15 @@ body {
 
 }
 
+.iglesia__container--titulo{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: black;
+    margin: 70px;
+
+}
 
 .iglesia__container--parrafo {
     font-family: 'Press Start 2P', cursive;
@@ -265,6 +273,16 @@ footer {
         height: 30vh;
     }
 
+    .iglesia__container--titulo{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+        color: black;
+        margin: 0 0 0 0px;
+    
+    }
+
     footer {
         position: absolute;
         bottom: -30%;
@@ -334,6 +352,16 @@ footer {
         margin: 8em auto -8em;
 
         /* background: rgb(83, 52, 220); */
+    }
+
+    .iglesia__container--titulo{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: black;
+        margin-bottom: 50px;
+    
     }
 
     .iglesia__container--parrafo {
