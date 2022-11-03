@@ -16,6 +16,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background: yellow;
     scroll-behavior: smooth;
+    position: relative;
 }
 
 /* preloader */
@@ -248,7 +249,7 @@ body {
 }
 
 .iglesia__card--tres {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%), url(../imagenes/extendimosMesa\ de\ trabajo\ 12\ \(1\).png);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%), url(../imagenes/gen\ z\ pantalla\ guillon.png);
     background-position: center;
     background-size: cover;
 }
@@ -336,6 +337,36 @@ footer {
     text-align: center;
 
 
+}
+
+/* footer */
+footer {
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+}
+
+.footer__contenedor {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.footer__social i {
+    font-size: 20px;
+    margin: 150px 10px 0px 0px;
+}
+
+.footer__social {
+    z-index: 8;
 }
 
 

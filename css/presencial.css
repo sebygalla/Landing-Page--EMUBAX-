@@ -17,6 +17,7 @@ body {
     background: yellow;
     scroll-behavior: smooth;
     position: relative;
+    overflow-x: hidden;
 }
 
 /* barra de navegacion */
@@ -77,7 +78,7 @@ body {
     z-index: 99999;
 }
 
-.nav__menu--volver i{
+.nav__menu--volver i {
     color: black;
 }
 
@@ -123,7 +124,7 @@ body {
     /* background-color: aqua; */
 }
 
-.iglesia__container--titulo{
+.iglesia__container--titulo {
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
     line-height: 25px;
@@ -148,12 +149,12 @@ body {
     background-size: cover;
 }
 
-.imgOrador{
+.imgOrador {
     width: 300px;
     filter: drop-shadow(0 0 0.75rem black);
 }
 
-.contImg{
+.contImg {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -269,34 +270,33 @@ footer {
     }
 
 
-  
 
-    .iglesia__container--titulo{
-        font-size: 40px;
+
+    .iglesia__container--titulo {
+        font-size: 45px;
         line-height: 40px;
         text-align: center;
         color: black;
-        margin: 0 0 30px 0;
+        margin: 0 0 60px 0;
     }
 
-    .iglesia__container--parrafo{
+    .iglesia__container--parrafo {
         font-size: 20px;
     }
 
-    .imgOrador{
+    .imgOrador {
         width: 400px;
     }
 
-    .contImg{
+    .contImg {
         margin: -2em 0 -3em 0;
     }
 
-
+    /* footer */
     footer {
         position: absolute;
         bottom: -30%;
         left: 0;
-
     }
 
     .footer__contenedor {
@@ -306,13 +306,10 @@ footer {
         bottom: 0;
         left: 0;
 
-
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-
-
 
     }
 
@@ -324,8 +321,6 @@ footer {
     .footer__social {
         z-index: 8;
     }
-
-
 
 }
 
@@ -357,8 +352,8 @@ footer {
 
     }
 
-    .iglesia__container--titulo{
-        
+    .iglesia__container--titulo {
+
         line-height: 1.2;
         text-align: center;
         color: black;
@@ -372,11 +367,11 @@ footer {
         text-align: justify;
     }
 
-    .imgOrador{
+    .imgOrador {
         width: 200px;
     }
 
-    .contImg{
+    .contImg {
         margin: -2em 0 3em 0;
     }
 
@@ -400,7 +395,7 @@ footer {
         text-align: center;
     }
 
-    .footer__contenedor p{
+    .footer__contenedor p {
         font-size: 10px;
     }
 
