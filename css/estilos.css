@@ -435,8 +435,8 @@ footer {
     }
 
     .footer__social i {
-        font-size: 20px;
-        margin: 150px 10px 0px 0px;
+        font-size: 25px;
+        margin: 190px 15px 0px 0px;
     }
 
     .footer__social {
@@ -501,12 +501,12 @@ footer {
     }
 
     .footer__contenedor p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .footer__social i {
-        font-size: 20px;
-        margin: 110px 10px 0px 0px;
+        font-size: 30px;
+        margin: 130px 20px 0px 0px;
     }
 
     .footer__social {
