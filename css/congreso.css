@@ -134,7 +134,7 @@ body {
     margin-bottom: 5em;
     /* background-color: chartreuse; */
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 60px 20px;
     border-radius: 12px;
 }
@@ -209,33 +209,6 @@ body {
     text-align: justify;
     color: black;
     margin-bottom: 120px;
-}
-
-.iglesia__container--social {
-    font-size: 20px;
-    line-height: 25px;
-    margin: 4em 0 0 0;
-    text-align: center;
-    /* background-color: grey; */
-}
-
-.iglesia__container--social p {
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    color: black;
-    margin: 20px;
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-
-    transition-property: background, filter, opacity;
-    outline: none;
-    transition-duration: .6s;
-    transition-timing-function: ease;
-    filter: brightness(100%);
-    opacity: 1;
-    display: inline-block;
-    text-decoration: none;
 }
 
 .iglesia__container--social i {
@@ -554,9 +527,9 @@ footer {
     }
 
     .iglesia__container--tituloDos {
-        font-size: 22px;
+        font-size: 25px;
         text-align: center;
-        margin: 30px auto;
+        margin: 40px auto;
     }
 
     .iglesia__container--parrafo {

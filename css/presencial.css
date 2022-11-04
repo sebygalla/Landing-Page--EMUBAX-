@@ -343,17 +343,17 @@ footer {
 
     .iglesia__container--parrafo {
         width: 100%;
-        font-size: 12px;
+        font-size: 17px;
         line-height: 25px;
         text-align: justify;
     }
 
     .imgOrador {
-        width: 200px;
+        width: 400px;
     }
 
     .contImg {
-        margin: -2em 0 3em 0;
+        margin: -2em 0 2em 0;
     }
 
     footer {
