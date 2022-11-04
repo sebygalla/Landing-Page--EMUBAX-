@@ -134,9 +134,10 @@ body {
     margin-bottom: 5em;
     /* background-color: chartreuse; */
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    /* background-color: rgba(0, 0, 0, .7); */
+    background-color: #286cff;
     padding: 60px 20px;
-    border-radius: 12px;
+    border-radius: 50px 0 50px 0;
 }
 
 .iglesia__container--titulo {
@@ -183,7 +184,7 @@ body {
 .iglesia__container__parrafo--grid span {
     font-size: 17px;
     font-weight: bold;
-    color: blueviolet;
+    color: black;
 }
 
 .iglesia__card--uno {
@@ -194,7 +195,7 @@ body {
 
 .imgOrador {
     width: 250px;
-    filter: drop-shadow(0 0 0.75rem black);
+    filter: drop-shadow(0 0 0.75rem rgb(240, 234, 234));
 }
 
 .contImg {
@@ -488,7 +489,7 @@ footer {
         align-items: center;
 
         padding: 40px 20px;
-        border-radius: 18px;
+
     }
 
     /* inicio */
@@ -506,15 +507,6 @@ footer {
         font-weight: bold;
         color: red;
     }
-
-    .iglesia__container__parrafo--grid span {
-        font-weight: bold;
-        color: blueviolet;
-    }
-
-  
-
-
 
     /* fin */
 
