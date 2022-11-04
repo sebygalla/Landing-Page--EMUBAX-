@@ -175,7 +175,7 @@ body {
     margin-bottom: 20px;
 }
 
-.iglesia__container__parrafo--grid strong{
+.iglesia__container__parrafo--grid strong {
     font-weight: bold;
     color: red;
 }
@@ -365,7 +365,7 @@ footer {
     }
 
     .iglesia__container--tituloDos {
-       
+
         text-align: center;
         margin: 30px 0 30px 0;
     }
@@ -451,27 +451,54 @@ footer {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         position: relative;
         align-items: center;
+
+        padding: 40px 20px;
+        border-radius: 18px;
     }
+
+    /* inicio */
+
+    .iglesia__container__parrafo--grid {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        line-height: 1.8;
+        text-align: justify;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .iglesia__container__parrafo--grid strong {
+        font-weight: bold;
+        color: red;
+    }
+
+    .iglesia__container__parrafo--grid span {
+        font-weight: bold;
+        color: blueviolet;
+    }
+
+
+
+    /* fin */
+
 
     .iglesia__container--titulo {
-        font-family: 'Press Start 2P', cursive;
-        font-size: 30px;
-        line-height: 25px;
+
+        font-size: 40px;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
-    .iglesia__container--tituloDos{
-        font-size: 12px;
+    .iglesia__container--tituloDos {
+        font-size: 18px;
         text-align: center;
-        margin: 0 auto;
-
+        margin: 30px auto;
     }
 
     .iglesia__container--parrafo {
         width: 100%;
+        line-height: 1.8;
         font-size: 12px;
-        line-height: 20px;
         text-align: justify;
     }
 
