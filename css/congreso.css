@@ -408,14 +408,15 @@ footer {
     }
 
     .iglesia__container--grid {
+      
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         align-items: center;
         margin: 30px auto;
     }
 
     .imgOrador {
-        width: 300px;
+        width: 250px;
     }
 
     .iglesia__container--titulo {
@@ -431,7 +432,8 @@ footer {
     }
 
     .iglesia__container--parrafo {
-        line-height: normal;
+        line-height: 1.8;
+        font-size: 17px;
     }
 
     .iglesia__container--grid {
@@ -502,7 +504,7 @@ footer {
         flex-direction: column;
         text-align: center;
         z-index: 1;
-        margin: 8em auto 3em;
+        margin: 8em auto 3em;      
     }
 
     .iglesia__container--grid {
@@ -537,6 +539,8 @@ footer {
         color: blueviolet;
     }
 
+  
+
 
 
     /* fin */
@@ -544,21 +548,21 @@ footer {
 
     .iglesia__container--titulo {
 
-        font-size: 40px;
+        font-size: 60px;
         text-align: center;
         margin-bottom: 30px;
     }
 
     .iglesia__container--tituloDos {
-        font-size: 18px;
+        font-size: 22px;
         text-align: center;
         margin: 30px auto;
     }
 
     .iglesia__container--parrafo {
-        width: 100%;
+       
         line-height: 1.8;
-        font-size: 12px;
+        font-size: 17px;
         text-align: justify;
     }
 
@@ -576,23 +580,6 @@ footer {
         width: 200px;
     }
 
-    .iglesia__container--social {
-
-        margin: 3em auto -10em;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .iglesia__container--social p {
-        font-size: 8px;
-    }
-
-    .iglesia__container--social i {
-        font-size: 20px;
-
-    }
 
     footer {
         width: 100%;
