@@ -440,7 +440,7 @@ footer {
 
     #wave {
         position: absolute;
-        bottom: 4em;
+        bottom: 13em;
         width: 100%;
         height: auto;
         z-index: -1;
@@ -466,51 +466,17 @@ footer {
     .iglesia__container--grid {
         grid-gap: 30px;
     }
-
-/* 
-    .contImg--matias {
-        margin: 0 -200px;
-        overflow: hidden;
+    .imgDos {
+        width: 300px;
+      
     }
-
-    .contImg--lucas {
-        margin: 0 -40px;
-        overflow: hidden;
-    }
-
-    .contImg--guido {
-        margin: 0 -190px;
-        overflow: hidden;
-    }
-
     .contImg-seba {
         margin: 0 -90px;
         overflow: hidden;
     }
-
-    .imgUno {
-        width: 450px;
-        padding-left: 60px;
-
-    }
-
-    .imgDos {
-        width: 400px;
-        padding-left: -50px;
-
-    }
-
-    .imgTres {
-        width: 480px;
-        padding-right: 0px;
-
-    }
-
     .imgCuatro {
-        width: 520px;
-        margin: 0 -15% 0 0;
+        width: 400px;
     }
- */
 
 
     footer {
@@ -581,21 +547,23 @@ footer {
     }
 
     .iglesia__container--grid {
+        width: 100%;
         display: grid;
         grid-gap: 30px;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         position: relative;
         align-items: center;
 
-        padding: 40px 20px;
+        padding: 40px 0px;
 
     }
 
     /* inicio */
 
     .iglesia__container__parrafo--grid {
+     
         font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
+        font-size: 17px;
         line-height: 1.8;
         text-align: justify;
         color: black;
@@ -647,11 +615,6 @@ footer {
         width: 350px;
     }
 
-
-  
-
-
-
     #wave {
         position: absolute;
         bottom: 9em;
@@ -698,7 +661,7 @@ footer {
     }
 
     .footer__social i {
-        font-size: 20px;
+        font-size: 16px;
         margin: 150px 10px 0px 0px;
     }
 
