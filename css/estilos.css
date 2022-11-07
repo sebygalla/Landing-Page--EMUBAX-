@@ -488,8 +488,8 @@ footer {
 
     .iglesia__container--card {
         margin-bottom: -6em;
+        gap: .5em;
     }
-
 
     /* Footer */
     footer {
