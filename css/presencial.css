@@ -143,7 +143,7 @@ body {
 }
 
 .imgOrador {
-    width: 300px;
+    width: 700px;
     filter: drop-shadow(0 0 0.75rem black);
 }
 
@@ -152,14 +152,15 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1em;
+    overflow: hidden;
     /* background-color: blueviolet; */
 }
 
 
-/* boton animacion*/
 
-.iglesia__container--boton {
-    width: 100%;
+/* boton animacion*/
+.iglesia__container__boton {
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr;
     margin: 6em auto 0;
@@ -174,7 +175,7 @@ body {
     background: red;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     border: none;
     cursor: pointer;
@@ -185,7 +186,6 @@ body {
     overflow: hidden;
 }
 
-
 .boton span {
     position: relative;
     z-index: 2;
@@ -193,7 +193,6 @@ body {
     text-decoration: none;
     text-decoration: none;
     list-style: none;
-
 }
 
 .boton.uno::after {
@@ -210,6 +209,10 @@ body {
 
 .boton.uno:hover::after {
     left: 0;
+}
+
+.iglesia__container__boton--link {
+    text-decoration: none;
 }
 
 
@@ -327,11 +330,12 @@ footer {
     }
 
     .imgOrador {
-        width: 400px;
+        width: 800px;
     }
 
     .contImg {
         margin: -2em 0 -3em 0;
+        overflow: hidden;
     }
 
     /* footer */
@@ -409,7 +413,7 @@ footer {
     }
 
     .imgOrador {
-        width: 400px;
+        width: 450px;
     }
 
     .contImg {
@@ -421,6 +425,10 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
         margin: 0em auto 5em;
+    }
+
+    .boton{
+        font-size: 12px;
     }
 
     footer {
