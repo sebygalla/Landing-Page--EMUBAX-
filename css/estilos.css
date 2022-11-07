@@ -184,12 +184,9 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-
-
-    /* background: cornflowerblue; */
 }
 
-/* .iglesia__card--ancla {
+.iglesia__card--ancla {
     transition-property: background, filter, opacity;
     outline: none;
     transition-duration: .3s;
@@ -198,7 +195,7 @@ a{
     opacity: 1;
     display: inline-block;
     text-decoration: none;
-} */
+} 
 
 .iglesia__container--card {
     width: 100%;
