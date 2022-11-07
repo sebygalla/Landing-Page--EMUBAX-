@@ -502,10 +502,11 @@ footer {
 
     .footer__contenedor p {
         font-size: 12px;
+       
     }
 
     .footer__social i {
-        font-size: 30px;
+        font-size: 16px;
         margin: 130px 20px 0px 0px;
     }
 
