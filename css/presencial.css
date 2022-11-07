@@ -142,20 +142,6 @@ body {
     background-size: cover;
 }
 
-.imgOrador {
-    width: 700px;
-    filter: drop-shadow(0 0 0.75rem black);
-}
-
-.contImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    overflow: hidden;
-    /* background-color: blueviolet; */
-}
-
 
 
 /* boton animacion*/
@@ -163,7 +149,7 @@ body {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr;
-    margin: 6em auto 0;
+    margin: 6em auto 5em;
 }
 
 .boton {
@@ -329,14 +315,7 @@ footer {
         font-size: 20px;
     }
 
-    .imgOrador {
-        width: 800px;
-    }
 
-    .contImg {
-        margin: -2em 0 -3em 0;
-        overflow: hidden;
-    }
 
     /* footer */
     footer {
@@ -412,13 +391,7 @@ footer {
         text-align: justify;
     }
 
-    .imgOrador {
-        width: 450px;
-    }
-
-    .contImg {
-        margin: -2em 0 0 0;
-    }
+   
 
     .iglesia__container--boton {
         width: 100%;
