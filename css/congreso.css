@@ -189,7 +189,7 @@ body {
 
 .iglesia__container__parrafo--grid strong {
     font-weight: bold;
-    color: red;
+    color: white;
 }
 
 .iglesia__container__parrafo--grid span {
@@ -216,18 +216,22 @@ body {
 
 .imgUno {
     width: 480px;
+    margin-bottom: 120px;
 }
 
 .imgDos {
     width: 480px;
+    margin-bottom: 120px;
 }
 
 .imgTres {
     width: 550px;
+    margin-bottom: 120px;
 }
 
 .imgCuatro {
     width: 650px;
+    margin-bottom: 120px;
 }
 
 .iglesia__container__parrafo--contacto {
@@ -463,7 +467,7 @@ footer {
         grid-gap: 30px;
     }
 
-
+/* 
     .contImg--matias {
         margin: 0 -200px;
         overflow: hidden;
@@ -506,7 +510,7 @@ footer {
         width: 520px;
         margin: 0 -15% 0 0;
     }
-
+ */
 
 
     footer {
@@ -635,33 +639,22 @@ footer {
         margin-bottom: 20px;
     }
 
-    .imgUno {
-        width: 470px;
-        
-       
+    .imgDos{
+        width:280px;
     }
 
-    .imgDos {
-        width: 450px;
-        padding-left: 50px;
-        padding-bottom: 20px;
-
+    .imgCuatro{
+        width: 350px;
     }
 
-    .imgTres {
-        width: 530px;
-        padding-right: 110px;
 
-    }
+  
 
-    .imgCuatro {
-        width: 450px;
-        margin: 0 80% 0 0;
-    }
+
 
     #wave {
         position: absolute;
-        bottom: 3em;
+        bottom: 9em;
         width: 100%;
         height: auto;
         z-index: -1;
