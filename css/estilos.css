@@ -204,8 +204,8 @@ a {
     flex-direction: column;
     text-align: center;
     z-index: 1;
-    margin: 10em auto;
-   
+    margin: 10em auto 1em; 
+    gap: 2em; 
 }
 
 .iglesia__card {
@@ -223,6 +223,7 @@ a {
     -moz-box-shadow: 10px 11px 15px -4px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 11px 15px -4px rgba(0, 0, 0, 0.75);
     background-size: cover;
+
 }
 
 .iglesia__titulo {
@@ -388,7 +389,7 @@ footer {
     }
 
     .iglesia__container--card {
-        margin: 7em auto;
+        margin: 7em auto -7em;
     }
 
     .iglesia__card {
@@ -482,6 +483,10 @@ footer {
         width: 15px;
         margin: 0;
         padding: 0;
+    }
+
+    .iglesia__container--card{
+        margin-bottom: -6em ;
     }
 
 
