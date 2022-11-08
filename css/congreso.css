@@ -12,7 +12,17 @@
     box-sizing: border-box;
 }
 
+html {
+    /* footer abajo */
+    height: 100%;
+}
+
 body {
+    /* footer abajo */
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
     font-family: 'Poppins', sans-serif;
     background: yellow;
     scroll-behavior: smooth;
@@ -142,12 +152,10 @@ body {
 }
 
 #wave {
-
     position: absolute;
     width: 100%;
     height: auto;
     z-index: -1;
-
 }
 
 
@@ -314,7 +322,6 @@ body {
     align-items: center;
     justify-content: center;
     margin: 5em auto;
-
 }
 
 .video {
@@ -324,11 +331,10 @@ body {
 /* footer */
 footer {
     width: 100%;
-    height: 18em;
-    position: absolute;
-    bottom: -10%;
-    left: 0;
-    background: url(../imagenes/footer1.png);
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    background: url(../imagenes/footer3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -336,17 +342,22 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* footer abajo */
+    margin-top: auto;
+
+
 }
 
 .footer__social i {
     color: white;
     font-size: 25px;
-    margin: 180px 30px 0px;
+    margin: 230px 30px 0px;
 }
 
 .footer__contenedor {
+    height: auto;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     text-align: center;
 }
@@ -358,9 +369,8 @@ footer {
     color: white;
     z-index: 0;
     text-align: center;
-
-
 }
+
 
 
 
@@ -466,33 +476,35 @@ footer {
     .iglesia__container--grid {
         grid-gap: 30px;
     }
+
     .imgDos {
         width: 300px;
-      
+
     }
+
     .contImg-seba {
         margin: 0 -90px;
         overflow: hidden;
     }
+
     .imgCuatro {
         width: 400px;
     }
 
 
-    footer {
+    /* footer {
         position: absolute;
         bottom: -8%;
         left: 0;
 
-    }
+    } */
 
     .footer__contenedor {
         width: 100%;
         height: auto;
-        position: absolute;
+        /* position: absolute;
         bottom: 0;
-        left: 0;
-
+        left: 0; */
 
         display: flex;
         align-items: center;
@@ -561,7 +573,7 @@ footer {
     /* inicio */
 
     .iglesia__container__parrafo--grid {
-     
+
         font-family: 'Montserrat', sans-serif;
         font-size: 17px;
         line-height: 1.8;
@@ -607,11 +619,11 @@ footer {
         margin-bottom: 20px;
     }
 
-    .imgDos{
-        width:280px;
+    .imgDos {
+        width: 280px;
     }
 
-    .imgCuatro{
+    .imgCuatro {
         width: 350px;
     }
 
@@ -639,20 +651,20 @@ footer {
     }
 
 
-    footer {
+    /* footer {
         width: 100%;
         height: 250px;
         background-size: cover;
         position: absolute;
         bottom: -5%;
-    }
+    } */
 
     .footer__contenedor {
         width: 100%;
         height: auto;
-        position: absolute;
+        /* position: absolute;
         bottom: 0;
-        left: 0;
+        left: 0; */
 
         display: flex;
         align-items: center;

@@ -11,7 +11,16 @@
     box-sizing: border-box;
 }
 
+html {
+    /* footer abajo */
+    height: 100%;
+}
+
 body {
+    /* footer abajo */
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 
     font-family: 'Poppins', sans-serif;
     background: yellow;
@@ -284,9 +293,9 @@ a {
 /* footer */
 footer {
     width: 100%;
-    position: absolute;
+    /* position: absolute;
     bottom: 25;
-    left: 0;
+    left: 0; */
     background: url(../imagenes/footer3.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -295,6 +304,8 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* footer abajo */
+    margin-top: auto;
 }
 
 .footer__social i {
@@ -397,42 +408,21 @@ footer {
         height: 30vh;
     }
 
-    footer {
-        background-size: 850px;
-        background-position-y: bottom;
-        background-repeat: repeat-x;
-    }
-
-    .footer__contenedor {
-        background: url(../imagenes/footer3.png);
-        background-position-y: -270px;
-        background-size: cover;
-    }
-
-    .footer__social i {
-        font-size: 25px;
-        margin: 130px 10px 0px 0px;
-    }
-
-    .footer__social {
-        z-index: 8;
-    }
-
 
 
     /* footer */
-    footer {
+    /* footer {
         position: absolute;
         bottom: -30%;
         left: 0;
-    }
+    } */
 
     .footer__contenedor {
         width: 100%;
         height: auto;
-        position: absolute;
+        /* position: absolute;
         bottom: 0;
-        left: 0;
+        left: 0; */
 
         display: flex;
         align-items: center;
@@ -493,18 +483,18 @@ footer {
     /* Footer */
     footer {
         width: 100%;
-        height: 250px;
+        /* height: 250px; */
         background-size: cover;
-        position: absolute;
+        /* position: absolute; */
         background-repeat: no-repeat;
     }
 
     .footer__contenedor {
         width: 100%;
         height: auto;
-        position: absolute;
+        /* position: absolute;
         bottom: 0;
-        left: 0;
+        left: 0; */
 
         display: flex;
         align-items: center;

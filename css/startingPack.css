@@ -12,9 +12,19 @@
     box-sizing: border-box;
 }
 
+html {
+    /* footer abajo */
+    height: 100%;
+}
+
 body {
+    /* footer abajo */
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
     font-family: 'Poppins', sans-serif;
-    background: #30336b;
+    /* background: #30336b; */
     background: #81ecec;
     scroll-behavior: smooth;
     position: relative;
@@ -211,9 +221,9 @@ body {
 /* footer */
 footer {
     width: 100%;
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
-    left: 0;
+    left: 0; */
     background: url(../imagenes/footer3.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -222,8 +232,10 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* footer abajo */
+    margin-top: auto;
 
-   
+
 }
 
 .footer__social i {
@@ -234,7 +246,7 @@ footer {
 
 .footer__contenedor {
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: center;
     text-align: center;
 }
@@ -318,17 +330,18 @@ footer {
     .iglesia__container--parrafo {
         font-size: 20px;
     }
-    .iglesia__container--info{
+
+    .iglesia__container--info {
         margin: 12em auto 15em;
     }
 
 
 
     /* footer */
-    footer {
+    /* footer {
         position: absolute;
         margin: 2em auto -18em;
-    }
+    } */
 
     .footer__social i {
         font-size: 22px;
@@ -396,16 +409,17 @@ footer {
         height: 50px;
     }
 
+    /* 
     footer {
-        height: 250px; 
-    }
+        height: 250px;
+    } */
 
     .footer__contenedor {
         width: 100%;
         height: auto;
-        position: absolute;
+        /* position: absolute;
         bottom: 0;
-        left: 0;
+        left: 0; */
 
         display: flex;
         align-items: center;
@@ -415,6 +429,7 @@ footer {
 
     .footer__contenedor p {
         font-size: 10px;
+        background: none;
     }
 
     .footer__social i {
