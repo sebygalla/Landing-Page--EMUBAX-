@@ -496,6 +496,7 @@ footer {
         height: 250px;
         background-size: cover;
         position: absolute;
+        background-repeat: no-repeat;
     }
 
     .footer__contenedor {
@@ -512,13 +513,11 @@ footer {
     }
 
     .footer__contenedor p {
-        font-size: 12px;
-
+        font-size: 10px;
     }
 
     .footer__social i {
-        font-size: 18px;
-        margin: 130px 20px 0px 0px;
+        margin: 150px 20px 0px 0px;
     }
 
     .footer__social {
