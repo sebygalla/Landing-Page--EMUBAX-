@@ -159,7 +159,7 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 50%;
     height: 80px;
     background: black;
     color: #fff;
@@ -223,7 +223,7 @@ footer {
     align-items: center;
     justify-content: center;
 
-    filter: drop-shadow(-13px 10px 150px white);
+    filter: drop-shadow(3px 10px 250px white);
 }
 
 .footer__social i {
@@ -405,6 +405,7 @@ footer {
 
     .boton {
         font-size: 12px;
+        height: 50px;
     }
 
     footer {
