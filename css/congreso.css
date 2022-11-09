@@ -258,6 +258,21 @@ body {
     color: black;
 }
 
+/* adornos */
+.adorno1{
+    width: 620px;
+    position: absolute;
+    top: 45em;
+    z-index: -1;
+}
+.adorno2{
+    width: 420px;
+    position: absolute;
+    top: 98em;
+    left: 20%;
+    z-index: 0;
+}
+
 /* boton animacion*/
 .iglesia__container__boton {
     width: 90%;
@@ -634,6 +649,22 @@ footer {
         height: auto;
         z-index: -1;
     }
+
+    /* adornos */
+.adorno1{
+    width: 150px;
+    position: absolute;
+    top: 90em;
+    left: 8%;
+    z-index: -1;
+}
+.adorno2{
+    width: 220px;
+    position: absolute;
+    top: 114em;
+    left: 40%;
+    z-index: -1;
+}
 
     .boton {
         height: auto;
