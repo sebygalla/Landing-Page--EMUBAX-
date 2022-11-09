@@ -259,12 +259,24 @@ body {
 }
 
 .rectangulo {
-    width: 50%;
+    width: 60%;
+    height: 50%;
+
+    background-color: #f1c40fbc;
+    position: absolute;
+    top: 20%;
+    right: -2%;
+    z-index: -9;
+}
+
+.rectangulo__dos {
+    width: 40%;
     height: 70%;
 
-    background-color: #f1c40f;
+    background-color: #77dbf1bc;
     position: absolute;
-    right: -2%;
+    top: 8%;
+    left: 55%;
     z-index: -9;
 }
 
@@ -524,6 +536,28 @@ footer {
 
     } */
 
+    .rectangulo {
+        width: 45%;
+        height: 50%;
+
+     
+        position: absolute;
+        right: 3%;
+        top: 18%;
+        z-index: -9;
+    }
+
+    .rectangulo__dos {
+        width: 40%;
+        height: 65%;
+    
+   
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        z-index: -99;
+    }
+
     .footer__contenedor {
         width: 100%;
         height: auto;
@@ -654,7 +688,7 @@ footer {
 
     #wave {
         position: absolute;
-        bottom: 9em;
+        bottom: 10em;
         width: 100%;
         height: auto;
         z-index: -1;
@@ -676,14 +710,22 @@ footer {
     z-index: -1;
 } */
     .rectangulo {
-        width: 70%;
-        height: 30%;
-
-        background-color: #f1c40f;
+        width: 80%;
+        height: 25%;
         position: absolute;
-        right: 25%;
-        bottom: 20%;
+        right: 2%;
+        top: 55%;
         z-index: -9;
+    }
+    .rectangulo__dos {
+        width: 60%;
+        height: 32%;
+    
+   
+        position: absolute;
+        top: 52%;
+        left: 5%;
+        z-index: -99;
     }
 
     .boton {
