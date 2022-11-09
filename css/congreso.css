@@ -651,14 +651,7 @@ footer {
     }
 
 
-    /* footer {
-        width: 100%;
-        height: 250px;
-        background-size: cover;
-        position: absolute;
-        bottom: -5%;
-    } */
-
+    /* footer */
     .footer__contenedor {
         width: 100%;
         height: auto;
@@ -673,8 +666,7 @@ footer {
     }
 
     .footer__social i {
-        font-size: 18px;
-        margin: 150px 10px 0px 0px;
+        margin: 180px 10px 0px 0px;
     }
 
     .footer__social {
