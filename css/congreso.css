@@ -258,8 +258,18 @@ body {
     color: black;
 }
 
+.rectangulo {
+    width: 50%;
+    height: 70%;
+
+    background-color: #f1c40f;
+    position: absolute;
+    right: -2%;
+    z-index: -9;
+}
+
 /* adornos */
-.adorno1{
+/* .adorno1{
     width: 620px;
     position: absolute;
     top: 45em;
@@ -271,7 +281,7 @@ body {
     top: 52em;
     right: 10%;
     z-index: 0;
-}
+} */
 
 /* boton animacion*/
 .iglesia__container__boton {
@@ -651,7 +661,7 @@ footer {
     }
 
     /* adornos */
-.adorno1{
+    /* .adorno1{
     width: 140px;
     position: absolute;
     top: 90em;
@@ -664,7 +674,17 @@ footer {
     top: 95em;
     left: 65%;
     z-index: -1;
-}
+} */
+    .rectangulo {
+        width: 70%;
+        height: 30%;
+
+        background-color: #f1c40f;
+        position: absolute;
+        right: 25%;
+        bottom: 20%;
+        z-index: -9;
+    }
 
     .boton {
         height: auto;
@@ -695,6 +715,7 @@ footer {
         justify-content: center;
         text-align: center;
     }
+
     .footer__contenedor p {
         font-size: 10px;
     }
