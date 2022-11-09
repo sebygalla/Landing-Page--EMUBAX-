@@ -664,6 +664,9 @@ footer {
         justify-content: center;
         text-align: center;
     }
+    .footer__contenedor p {
+        font-size: 10px;
+    }
 
     .footer__social i {
         margin: 180px 10px 0px 0px;
