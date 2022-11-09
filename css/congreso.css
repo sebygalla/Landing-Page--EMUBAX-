@@ -280,6 +280,20 @@ body {
     z-index: -9;
 }
 
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 80px solid #77dbf1bc;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    top: 8%;
+    left: 15%;
+    rotate: 10deg;
+}
+
+
 /* adornos */
 /* .adorno1{
     width: 620px;
@@ -540,7 +554,7 @@ footer {
         width: 45%;
         height: 50%;
 
-     
+
         position: absolute;
         right: 3%;
         top: 18%;
@@ -550,12 +564,24 @@ footer {
     .rectangulo__dos {
         width: 40%;
         height: 65%;
-    
-   
+
+
         position: absolute;
         top: 10%;
         left: 40%;
         z-index: -99;
+    }
+
+    .triangulo {
+        width: 0;
+        height: 0;
+        border-left: 40px solid #77dbf1bc;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        position: absolute;
+        top: 0;
+        left: 15%;
+        rotate: 10deg;
     }
 
     .footer__contenedor {
@@ -710,23 +736,39 @@ footer {
     z-index: -1;
 } */
     .rectangulo {
-        width: 80%;
+        width: 78%;
         height: 25%;
+        /* border-radius: 0  28px 0; */
         position: absolute;
-        right: 2%;
+        right: 5%;
         top: 55%;
         z-index: -9;
     }
+
     .rectangulo__dos {
-        width: 60%;
+        width: 70%;
         height: 32%;
-    
-   
+        /* border-radius: 0 28px; */
+
+
         position: absolute;
         top: 52%;
         left: 5%;
         z-index: -99;
     }
+
+    .triangulo {
+        width: 0;
+        height: 0;
+        border-left: 90px solid #77dbf1bc;
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid transparent;
+        position: absolute;
+        top: 40%;
+        left: 75%;
+        rotate: 10deg;
+    }
+
 
     .boton {
         height: auto;
