@@ -76,7 +76,7 @@ body {
     margin-left: -30px;
 }
 
-.nav__menu--volver {
+.nav__menu__volver {
     list-style: none;
     text-decoration: none;
     color: black;
@@ -86,7 +86,7 @@ body {
     z-index: 99999;
 }
 
-.nav__menu--volver i {
+.nav__menu__volver i {
     color: black;
 }
 
@@ -118,7 +118,7 @@ body {
     justify-content: center;
 }
 
-.iglesia__container--info {
+.iglesia__container__info {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -128,7 +128,7 @@ body {
     /* background-color: aqua; */
 }
 
-.iglesia__container--titulo {
+.iglesia__container__titulo {
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
     line-height: 25px;
@@ -137,7 +137,7 @@ body {
     margin: 70px;
 }
 
-.iglesia__container--parrafo {
+.iglesia__container__parrafo {
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     line-height: 1.8;
@@ -145,7 +145,18 @@ body {
     color: black;
     margin-bottom: 20px;
 }
-.iglesia__container__subtitulo{
+
+.iglesia__container__parrafo--dos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 1.8;
+    text-align: center;
+    color: black;
+    margin: 120px auto 0;
+}
+
+.iglesia__container__subtitulo {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
     line-height: 25px;
@@ -153,24 +164,16 @@ body {
     color: black;
     margin: 70px;
 }
-.iglesia__container__listado{
+
+.iglesia__container__listado {
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     line-height: 1.8;
-    text-align: left;
+    text-align: center;
     color: black;
     margin-bottom: 20px;
     list-style: none;
 }
-
-
-.iglesia__card--uno {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%);
-    background-position: center;
-    background-size: cover;
-}
-
-
 
 /* boton animacion*/
 .iglesia__container__boton {
@@ -225,7 +228,7 @@ body {
     left: 0;
 }
 
-.iglesia__container__boton--link {
+.iglesia__container__boton__link {
     text-decoration: none;
 }
 
@@ -301,28 +304,6 @@ footer {
         color: white;
     }
 
-    .nav__link--menu {
-        position: fixed;
-        background: #151E21;
-        color: white;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        pointer-events: none;
-        z-index: 9;
-        opacity: 0;
-        transition: .2s opacity;
-    }
-
     .nav__link--menu a {
         color: white;
         font-size: 25px;
@@ -333,7 +314,7 @@ footer {
         display: none;
     }
 
-    .iglesia__container--titulo {
+    .iglesia__container__titulo {
         font-size: 45px;
         line-height: 40px;
         text-align: center;
@@ -341,27 +322,18 @@ footer {
         margin: 0 0 60px 0;
     }
 
-    .iglesia__container--parrafo {
+    .iglesia__container__parrafo {
         font-size: 20px;
     }
 
-
-
-    /* footer */
-    /* footer {
-        position: absolute;
-        bottom: 3;
-        left: 0;
-
-
-    } */
+    .iglesia__container__listado {
+        font-size: 17px;
+        text-align: center;
+    }
 
     .footer__contenedor {
         width: 100%;
         height: auto;
-        /* position: absolute;
-        bottom: 0;
-        left: 0; */
 
         display: flex;
         align-items: center;
@@ -407,12 +379,11 @@ footer {
         padding: 0;
     }
 
-    .iglesia__container--info {
+    .iglesia__container__info {
         margin: 8em auto -8em;
-
     }
 
-    .iglesia__container--titulo {
+    .iglesia__container__titulo {
 
         line-height: 1.2;
         text-align: center;
@@ -420,16 +391,25 @@ footer {
         margin-bottom: 50px;
     }
 
-    .iglesia__container--parrafo {
+    .iglesia__container__parrafo {
         width: 100%;
         font-size: 17px;
         line-height: 25px;
         text-align: justify;
     }
+    .iglesia__container__parrafo--dos{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .iglesia__container__listado {
+        font-size: 14px;
+        text-align: justify;
+    }
 
 
 
-    .iglesia__container--boton {
+    .iglesia__container__boton {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
@@ -443,10 +423,7 @@ footer {
     .footer__contenedor {
         width: 100%;
         height: auto;
-        /* position: absolute;
-        bottom: 0;
-        left: 0; */
-
+    
         display: flex;
         align-items: center;
         justify-content: center;
