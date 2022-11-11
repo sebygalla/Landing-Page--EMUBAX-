@@ -257,7 +257,7 @@ body {
     line-height: 1.8;
     text-align: center;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 120px;
     list-style: none;
 }
 
@@ -289,13 +289,12 @@ body {
     z-index: -9;
 }
 
-
 .triangulo {
     width: 0;
     height: 0;
-    border-left: 80px solid #77dbf1bc;
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
+    border-left: 50px solid #77dbf1bc;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
     position: absolute;
     top: 8%;
     left: 15%;
