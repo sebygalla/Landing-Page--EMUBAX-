@@ -130,11 +130,11 @@ body {
 
 .iglesia__container__titulo {
     font-family: 'Oswald', sans-serif;
-    font-size: 35px;
+    font-size: 45px;
     line-height: 25px;
-    text-align: center;
+    text-align: left;
     color: black;
-    margin: 70px;
+    margin-bottom: 70px;
 }
 
 .iglesia__container__parrafo {
@@ -143,7 +143,7 @@ body {
     line-height: 1.8;
     text-align: justify;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 .iglesia__container__parrafo--dos {
@@ -151,25 +151,25 @@ body {
     font-size: 17px;
     font-weight: 100;
     line-height: 1.8;
-    text-align: center;
+    text-align: left;
     color: black;
-    margin: 120px auto 0;
+    margin: 120px 0 0 0;
 }
 
 .iglesia__container__subtitulo {
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 25px;
-    text-align: center;
+    text-align: left;
     color: black;
-    margin: 70px;
+    margin-bottom: 70px;
 }
 
 .iglesia__container__listado {
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     line-height: 1.8;
-    text-align: center;
+    text-align: justify;
     color: black;
     margin-bottom: 20px;
     list-style: none;
@@ -177,7 +177,7 @@ body {
 
 /* boton animacion*/
 .iglesia__container__boton {
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     margin: 2em auto 0em;
@@ -321,6 +321,12 @@ footer {
         color: black;
         margin: 0 0 60px 0;
     }
+    .iglesia__container__subtitulo{
+        text-align: center;
+    }
+    .iglesia__container__parrafo--dos{
+        text-align: center;
+    }
 
     .iglesia__container__parrafo {
         font-size: 20px;
@@ -384,11 +390,13 @@ footer {
     }
 
     .iglesia__container__titulo {
-
         line-height: 1.2;
         text-align: center;
         color: black;
         margin-bottom: 50px;
+    }
+    .iglesia__container__subtitulo{
+        line-height: 35px;
     }
 
     .iglesia__container__parrafo {
@@ -398,7 +406,7 @@ footer {
         text-align: justify;
     }
     .iglesia__container__parrafo--dos{
-        font-size: 14px;
+        font-size: 15px;
         margin-bottom: 20px;
     }
 

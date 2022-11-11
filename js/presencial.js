@@ -11,7 +11,7 @@ const enlaces = document.querySelector('.nav__link--menu');
 const subscribe = document.querySelector('.nav__subscribe');
 const avatar = document.querySelector('.nav__avatar');
 const body = document.querySelector('.body');
-const volver = document.querySelector('.nav__menu--volver i');
+const volver = document.querySelector('.nav__menu__volver i');
 
 //scroll navbar
 window.addEventListener('scroll', () => {
