@@ -237,8 +237,18 @@ body {
     line-height: 1.8;
     text-align: center;
     color: black;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
     list-style: none;
+}
+
+.iglesia__container__parrafo--dos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 1.8;
+    text-align: center;
+    color: black;
+    margin: 120px auto 0;
 }
 
 .iglesia__container__social i {
@@ -286,7 +296,7 @@ body {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr;
-    margin: 6em auto 0;
+    margin: 2em auto 0;
 }
 
 .boton {
@@ -337,6 +347,7 @@ body {
 .iglesia__container__boton--link {
     text-decoration: none;
 }
+
 
 /* video */
 .iglesia__container__video {
@@ -665,6 +676,16 @@ footer {
         text-align: justify;
         color: black;
         margin-bottom: 20px;
+    }
+
+    .iglesia__container__parrafo--dos {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .iglesia__container__listado {
+        font-size: 14px;
+        text-align: center;
     }
 
     .imgDos {
