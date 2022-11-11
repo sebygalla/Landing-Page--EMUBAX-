@@ -242,14 +242,23 @@ body {
     margin-bottom: 120px;
 }
 
-.iglesia__container__parrafo--contacto {
-    width: 90%;
+.iglesia__container__subtitulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: black;
+    margin: 70px;
+}
+
+.iglesia__container__listado {
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     line-height: 1.8;
-    text-align: justify;
+    text-align: center;
     color: black;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
+    list-style: none;
 }
 
 .iglesia__container--social i {
