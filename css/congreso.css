@@ -12,10 +12,6 @@
     box-sizing: border-box;
 }
 
-html {
-    /* footer abajo */
-    /* height: 100%; */
-}
 
 body {
     /* footer abajo */
@@ -39,8 +35,6 @@ body {
     justify-content: center;
     position: fixed;
     z-index: 9;
-
-    /* background-color: rgb(8, 55, 55); */
 
 }
 
@@ -78,7 +72,7 @@ body {
     margin-left: -30px;
 }
 
-.nav__menu--volver {
+.nav__menu__volver {
     list-style: none;
     text-decoration: none;
     color: black;
@@ -88,7 +82,7 @@ body {
     z-index: 99999;
 }
 
-.nav__menu--volver i {
+.nav__menu__volver i {
     color: black;
 }
 
@@ -126,7 +120,7 @@ body {
     /* background-color: crimson; */
 }
 
-.iglesia__container--info {
+.iglesia__container__info {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -136,7 +130,7 @@ body {
     /* background-color: darksalmon; */
 }
 
-.iglesia__container--grid {
+.iglesia__container__grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     align-items: center;
@@ -151,15 +145,7 @@ body {
     position: relative;
 }
 
-#wave {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-}
-
-
-.iglesia__container--titulo {
+.iglesia__container__titulo {
     font-family: 'Oswald', sans-serif;
     font-size: 75px;
     line-height: 1.8;
@@ -168,7 +154,7 @@ body {
     margin: 0 0 40px 0;
 }
 
-.iglesia__container--tituloDos {
+.iglesia__container__tituloDos {
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     line-height: 25px;
@@ -177,7 +163,7 @@ body {
     margin: 40px 0 80px 0;
 }
 
-.iglesia__container--parrafo {
+.iglesia__container__parrafo {
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     line-height: 1.8;
@@ -204,12 +190,6 @@ body {
     font-size: 17px;
     font-weight: bold;
     color: black;
-}
-
-.iglesia__card--uno {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%);
-    background-position: center;
-    background-size: cover;
 }
 
 /* Imagen de Oradores */
@@ -261,7 +241,7 @@ body {
     list-style: none;
 }
 
-.iglesia__container--social i {
+.iglesia__container__social i {
     font-size: 60px;
     margin: 20px;
     color: black;
@@ -297,25 +277,9 @@ body {
     border-bottom: 20px solid transparent;
     position: absolute;
     top: 8%;
-    left: 15%;
+    left: 35%;
     rotate: 10deg;
 }
-
-
-/* adornos */
-/* .adorno1{
-    width: 620px;
-    position: absolute;
-    top: 45em;
-    z-index: -1;
-}
-.adorno2{
-    width: 220px;
-    position: absolute;
-    top: 52em;
-    right: 10%;
-    z-index: 0;
-} */
 
 /* boton animacion*/
 .iglesia__container__boton {
@@ -375,7 +339,7 @@ body {
 }
 
 /* video */
-.iglesia__container--video {
+.iglesia__container__video {
     width: 100%;
     display: flex;
     align-items: center;
@@ -403,7 +367,6 @@ footer {
     justify-content: center;
     /* footer abajo */
     margin-top: auto;
-
 
 }
 
@@ -493,7 +456,7 @@ footer {
         display: none;
     }
 
-    .iglesia__container--grid {
+    .iglesia__container__grid {
 
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -516,24 +479,24 @@ footer {
         z-index: -1;
     }
 
-    .iglesia__container--titulo {
+    .iglesia__container__titulo {
         font-size: 60px;
         text-align: center;
         margin: 0 0 30px 0;
     }
 
-    .iglesia__container--tituloDos {
+    .iglesia__container__tituloDos {
 
         text-align: center;
         margin: 30px 0 30px 0;
     }
 
-    .iglesia__container--parrafo {
+    .iglesia__container__parrafo {
         line-height: 1.8;
         font-size: 17px;
     }
 
-    .iglesia__container--grid {
+    .iglesia__container__grid {
         grid-gap: 30px;
     }
 
@@ -551,19 +514,11 @@ footer {
         width: 400px;
     }
 
-
-    /* footer {
-        position: absolute;
-        bottom: -8%;
-        left: 0;
-
-    } */
-
     .rectangulo {
         width: 35%;
         height: 45%;
 
-        background-color: rgba(255, 0, 0, 0.609);
+        background-color: #f1c40fbc;
         position: absolute;
         right: 10%;
         top: 22%;
@@ -643,7 +598,7 @@ footer {
         width: 100%;
     }
 
-    .iglesia__container--info {
+    .iglesia__container__info {
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -652,7 +607,7 @@ footer {
         margin: 8em auto 3em;
     }
 
-    .iglesia__container--grid {
+    .iglesia__container__grid {
         width: 100%;
         display: grid;
         grid-gap: 30px;
@@ -665,7 +620,6 @@ footer {
     }
 
     /* inicio */
-
     .iglesia__container__parrafo--grid {
 
         font-family: 'Montserrat', sans-serif;
@@ -684,27 +638,27 @@ footer {
     /* fin */
 
 
-    .iglesia__container--titulo {
+    .iglesia__container__titulo {
 
         font-size: 60px;
         text-align: center;
         margin-bottom: 30px;
     }
 
-    .iglesia__container--tituloDos {
+    .iglesia__container__tituloDos {
         font-size: 35px;
         line-height: 40px;
         text-align: center;
         margin: 40px auto;
     }
 
-    .iglesia__container--parrafo {
+    .iglesia__container__parrafo {
         line-height: 1.8;
         font-size: 17px;
         text-align: justify;
     }
 
-    .iglesia__container--parrafoDos {
+    .iglesia__container__parrafoDos {
         width: 90%;
         font-size: 12px;
         line-height: 20px;
@@ -721,30 +675,7 @@ footer {
         width: 350px;
     }
 
-    #wave {
-        display: none;
-        position: absolute;
-        bottom: 10em;
-        width: 100%;
-        height: auto;
-        z-index: -1;
-    }
-
-    /* adornos */
-    /* .adorno1{
-    width: 140px;
-    position: absolute;
-    top: 90em;
-    left: 8%;
-    z-index: -1;
-}
-.adorno2{
-    width: 120px;
-    position: absolute;
-    top: 95em;
-    left: 65%;
-    z-index: -1;
-} */
+    /* Adornos (rectangulos) */
     .rectangulo {
         width: 78%;
         height: 27%;
@@ -752,13 +683,13 @@ footer {
         right: 5%;
         top: 55%;
         z-index: -9;
-        background-color: rgba(255, 0, 0, 0.609);
+        background-color: #f1c40fbc;
     }
 
     .rectangulo__dos {
         width: 70%;
         height: 32%;
-    
+
         position: absolute;
         top: 52%;
         left: 5%;
@@ -777,7 +708,7 @@ footer {
         rotate: 10deg;
     }
 
-
+    /* boton */
     .boton {
         height: auto;
         padding: 20px;
@@ -785,7 +716,7 @@ footer {
     }
 
     /* video */
-    .iglesia__container--video {
+    .iglesia__container__video {
         margin: 1em auto;
     }
 
@@ -798,9 +729,6 @@ footer {
     .footer__contenedor {
         width: 100%;
         height: auto;
-        /* position: absolute;
-        bottom: 0;
-        left: 0; */
 
         display: flex;
         align-items: center;
