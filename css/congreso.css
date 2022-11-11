@@ -679,12 +679,17 @@ footer {
     }
 
     .iglesia__container__parrafo--dos {
-        font-size: 14px;
+        font-size: 15px;
         margin-bottom: 20px;
+        text-align: center;
     }
 
     .iglesia__container__listado {
-        font-size: 14px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .iglesia__container__subtitulo{
+        margin-top: 2em;
         text-align: center;
     }
 
