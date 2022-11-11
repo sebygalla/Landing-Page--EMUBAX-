@@ -180,7 +180,7 @@ body {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr;
-    margin: 6em auto 5em;
+    margin: 6em auto 0em;
 }
 
 .boton {
