@@ -244,7 +244,7 @@ body {
 
 .iglesia__container__subtitulo {
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 25px;
     text-align: center;
     color: black;
@@ -509,6 +509,7 @@ footer {
 
 
     #wave {
+        display: none;
         position: absolute;
         bottom: 13em;
         width: 100%;
@@ -560,13 +561,13 @@ footer {
     } */
 
     .rectangulo {
-        width: 45%;
-        height: 50%;
+        width: 35%;
+        height: 45%;
 
-
+        background-color: rgba(255, 0, 0, 0.609);
         position: absolute;
-        right: 3%;
-        top: 18%;
+        right: 10%;
+        top: 22%;
         z-index: -9;
     }
 
@@ -577,7 +578,7 @@ footer {
 
         position: absolute;
         top: 10%;
-        left: 40%;
+        left: 60%;
         z-index: -99;
     }
 
@@ -722,6 +723,7 @@ footer {
     }
 
     #wave {
+        display: none;
         position: absolute;
         bottom: 10em;
         width: 100%;
@@ -746,20 +748,18 @@ footer {
 } */
     .rectangulo {
         width: 78%;
-        height: 25%;
-        /* border-radius: 0  28px 0; */
+        height: 27%;
         position: absolute;
         right: 5%;
         top: 55%;
         z-index: -9;
+        background-color: rgba(255, 0, 0, 0.609);
     }
 
     .rectangulo__dos {
         width: 70%;
         height: 32%;
-        /* border-radius: 0 28px; */
-
-
+    
         position: absolute;
         top: 52%;
         left: 5%;
