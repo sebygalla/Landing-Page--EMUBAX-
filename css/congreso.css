@@ -615,7 +615,7 @@ footer {
         flex-direction: column;
         text-align: center;
         z-index: 1;
-        margin: 8em auto 3em;
+        margin: 10em auto 3em;
     }
 
     .iglesia__container__grid {
@@ -767,7 +767,7 @@ footer {
     }
 
     .footer__social i {
-        margin: 180px 10px 0px 0px;
+        margin: 190px 10px 0px 0px;
     }
 
     .footer__social {

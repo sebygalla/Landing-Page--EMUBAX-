@@ -161,7 +161,7 @@ body {
     font-size: 30px;
     line-height: 25px;
     text-align: left;
-    color: black;
+    color: red;
     margin-bottom: 70px;
 }
 
@@ -386,7 +386,7 @@ footer {
     }
 
     .iglesia__container__info {
-        margin: 8em auto -8em;
+        margin: 10em auto 0em;
     }
 
     .iglesia__container__titulo {
@@ -443,7 +443,7 @@ footer {
     }
 
     .footer__social i {
-        margin: 180px 20px 0px 0px;
+        margin: 190px 20px 0px 0px;
     }
 
     .footer__social {
