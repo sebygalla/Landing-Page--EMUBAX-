@@ -377,7 +377,7 @@ footer {
     }
 
     .iglesia__container--info {
-        margin: 8em auto 3em;
+        margin: 10em auto 0;
 
     }
 
@@ -395,8 +395,6 @@ footer {
         text-align: justify;
     }
 
-
-
     .iglesia__container__boton {
         width: 100%;
         height: auto;
@@ -409,17 +407,9 @@ footer {
         height: 50px;
     }
 
-    /* 
-    footer {
-        height: 250px;
-    } */
-
     .footer__contenedor {
         width: 100%;
         height: auto;
-        /* position: absolute;
-        bottom: 0;
-        left: 0; */
 
         display: flex;
         align-items: center;
@@ -433,7 +423,7 @@ footer {
     }
 
     .footer__social i {
-        margin: 180px 10px 0px 0px;
+        margin: 190px 10px 0px 0px;
     }
 
     .footer__social {
