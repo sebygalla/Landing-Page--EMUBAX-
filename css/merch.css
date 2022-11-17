@@ -219,7 +219,7 @@ body {
     max-width: 1200px;
     width: 100%;
     height: auto;
-    padding: 2em;
+
     /* background-color: aqua; */
     display: flex;
     flex-wrap: wrap;
@@ -227,7 +227,7 @@ body {
     justify-content: center;
     gap: 2em;
 
-    
+
 
 }
 
@@ -237,58 +237,67 @@ body {
     border-radius: 20px;
     position: relative;
     overflow: hidden;
-    
+
     background-color: aquamarine;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 10px 11px 15px -4px rgba(0, 0, 0, 0.4);
 }
-.carrousel__imagen{
+
+.carrousel__imagen {
     padding: 30px;
     z-index: 99;
 }
-.carrousel__card img{
+
+.carrousel__card img {
     width: 200px;
     object-fit: cover;
     filter: drop-shadow(0 0 0.75rem rgb(245, 221, 116));
 }
-.carrousel__texto{
+
+.carrousel__texto {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 30px;
     z-index: 9;
     text-align: right;
 
 }
-.carrousel__texto h2{
+
+.carrousel__texto h2 {
     font-size: 20px;
     margin: 6px auto;
 }
-.carrousel__texto h3{
+
+.carrousel__texto h3 {
     font-size: 10px;
     font-weight: 100;
     margin: 6px auto;
 }
-.carrousel__texto h4{
+
+.carrousel__texto h4 {
     font-size: 18px;
     color: red;
     font-weight: 600;
     margin: 6px auto;
 }
-.carrousel__btn button{ 
+
+.carrousel__btn button {
     background-color: yellow;
     border: none;
     padding: 8px;
     color: black;
     cursor: pointer;
 }
-.carrousel__btn button:hover{ 
+
+.carrousel__btn button:hover {
     background-color: blue;
     color: white;
     transition: .2s ease-in-out;
 
 }
-.carrousel__wave{
+
+.carrousel__wave {
     width: 200%;
     border-radius: 20px;
     position: absolute;
@@ -416,7 +425,7 @@ footer {
         margin: 12em auto 15em;
     }
 
-    .carrousel__imagen img{
+    .carrousel__imagen img {
         filter: drop-shadow(0 0 0.25rem rgba(251, 250, 248, 0.408));
     }
 
@@ -486,17 +495,26 @@ footer {
     }
 
     /* Merch */
-    .carrousel__texto{
+    .carrousel__texto {
         width: 60%;
         z-index: 999;
-        
+
     }
-    .carrousel__imagen img{
+
+    .carrousel__imagen img {
         width: 190px;
         position: absolute;
         top: 30%;
-        left: 2%;
+        left: 5%;
         filter: drop-shadow(0 0 0.25rem rgba(251, 250, 248, 0.408));
+    }
+
+    .remera img {
+        width: 400px;
+        position: absolute;
+        top: -30%;
+        left: -30%;
+        
     }
 
     .footer__contenedor {
