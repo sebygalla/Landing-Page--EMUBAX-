@@ -24,7 +24,7 @@ body {
     min-height: 100%;
 
     font-family: 'Poppins', sans-serif;
-    background: #fff;
+    background: white;
     scroll-behavior: smooth;
     position: relative;
     overflow-x: hidden;
@@ -139,81 +139,6 @@ body {
     margin: 70px;
 }
 
-.iglesia__container--parrafo {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    line-height: 1.8;
-    text-align: justify;
-    color: black;
-    margin-bottom: 20px;
-}
-
-.iglesia__card--uno {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%);
-    background-position: center;
-    background-size: cover;
-}
-
-
-
-/* boton animacion*/
-.iglesia__container__boton {
-    width: 90%;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 6em auto 0;
-    gap: 2em;
-}
-
-.boton {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    height: 80px;
-    background: black;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    border: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: .3s ease all;
-    border-radius: 5;
-    position: relative;
-    overflow: hidden;
-}
-
-.boton span {
-    position: relative;
-    z-index: 2;
-    transition: .3s ease all;
-    text-decoration: none;
-    text-decoration: none;
-    list-style: none;
-}
-
-.boton.uno::after {
-    content: "";
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: calc(-100% - 80px);
-    border-bottom: 80px solid red;
-    border-right: 80px solid transparent;
-    transition: .4s ease-in-out all;
-}
-
-.boton.uno:hover::after {
-    left: 0;
-}
-
-.iglesia__container__boton--link {
-    text-decoration: none;
-}
-
 /* CARRUSEL */
 .iglesia__container__carrousel {
     max-width: 1200px;
@@ -226,8 +151,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2em;
-
-
 
 }
 
@@ -251,17 +174,27 @@ body {
 }
 
 .carrousel__card img {
-    width: 200px;
+    width: 230px;
     object-fit: cover;
-    filter: drop-shadow(0 0 0.75rem rgb(245, 221, 116));
+    filter: drop-shadow(0 0 0.75rem rgba(254, 253, 248, 0.733));
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.remera img {
+    width: 450px;
+    position: absolute;
+    top: -45%;
+    left: -30%;
 }
 
 .carrousel__texto {
+    width: 50%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 30px;
-    z-index: 9;
+    z-index: 99;
     text-align: right;
-
 }
 
 .carrousel__texto h2 {
@@ -277,9 +210,12 @@ body {
 
 .carrousel__texto h4 {
     font-size: 18px;
-    color: red;
+
     font-weight: 600;
     margin: 6px auto;
+    color: blueviolet;
+
+
 }
 
 .carrousel__btn button {
@@ -417,10 +353,6 @@ footer {
         margin: 0 0 60px 0;
     }
 
-    .iglesia__container--parrafo {
-        font-size: 20px;
-    }
-
     .iglesia__container--info {
         margin: 12em auto 15em;
     }
@@ -475,34 +407,15 @@ footer {
         margin-bottom: 50px;
     }
 
-    .iglesia__container--parrafo {
-        width: 100%;
-        font-size: 17px;
-        line-height: 25px;
-        text-align: justify;
-    }
-
-    .iglesia__container__boton {
-        width: 100%;
-        height: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .boton {
-        font-size: 12px;
-        height: 50px;
-    }
-
     /* Merch */
     .carrousel__texto {
-        width: 60%;
+        width: 40%;
         z-index: 999;
 
     }
 
     .carrousel__imagen img {
-        width: 190px;
+        width: 220px;
         position: absolute;
         top: 30%;
         left: 5%;
@@ -514,7 +427,7 @@ footer {
         position: absolute;
         top: -30%;
         left: -30%;
-        
+
     }
 
     .footer__contenedor {
