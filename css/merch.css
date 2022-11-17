@@ -215,28 +215,79 @@ body {
 }
 
 /* CARRUSEL */
-
 .iglesia__container__carrousel {
-    max-width: 800px;
+    max-width: 1200px;
     width: 100%;
-    height: 400px;
     background-color: aqua;
     display: flex;
-    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
     overflow-x: scroll;
+
     scroll-snap-type: x mandatory;
- 
+    
+
 }
-.container__carrousel__card{
+
+.carrousel__card {
+    padding: 20px;
     width: 100%;
-    object-fit: cover;
+    height: auto;
+    margin: 0 2em;
     scroll-snap-align: center;
-    margin: 8px;
-    border-radius: 120px;
+    background: rgb(18, 242, 37);
 }
-.container__carrousel__card--imagen {
-    width: 200px;
-    margin: 10px;
+
+.carrousel__card__texto {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.carrousel__card--titulo {
+    font-size: 15px;
+}
+
+.carrousel__card--subtitulo {
+    font-size: 8px;
+}
+
+.carrousel__card__imagen {
+    width: 90%;
+    height: auto;
+    background-color: rebeccapurple;
+    margin: 0 auto;
+}
+
+.carrousel__card__imagen img {
+    width: 12em;
+    object-fit: cover;
+}
+
+.carrousel__card__info {
+    width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.carrousel__card--precio {
+    font-size: 10px;
+    font-weight: 600;
+    color: red;
+}
+
+.carrousel__card--btn {
+    font-size: 10px;
+    padding: 5px;
+    font-weight: 100;
 }
 
 
