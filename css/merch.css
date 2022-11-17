@@ -24,7 +24,7 @@ body {
     min-height: 100%;
 
     font-family: 'Poppins', sans-serif;
-    background: yellow;
+    background: #fff;
     scroll-behavior: smooth;
     position: relative;
     overflow-x: hidden;
@@ -76,7 +76,7 @@ body {
     margin-left: -30px;
 }
 
-.nav__menu__volver {
+.nav__menu--volver {
     list-style: none;
     text-decoration: none;
     color: black;
@@ -86,7 +86,7 @@ body {
     z-index: 99999;
 }
 
-.nav__menu__volver i {
+.nav__menu--volver i {
     color: black;
 }
 
@@ -118,84 +118,64 @@ body {
     justify-content: center;
 }
 
-.iglesia__container__info {
+.iglesia__container--info {
     width: 90%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     z-index: 1;
     margin: 12em auto 10em;
     /* background-color: aqua; */
 }
 
-.iglesia__container__titulo {
+.iglesia__container--titulo {
     font-family: 'Oswald', sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 25px;
-    text-align: left;
+    text-align: center;
     color: black;
-    margin-bottom: 70px;
+    margin: 70px;
 }
 
-.iglesia__container__parrafo {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    line-height: 1.8;
-    text-align: justify;
-    color: black;
-    margin-bottom: 70px;
-}
-
-.iglesia__container__parrafo--dos {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    font-weight: 100;
-    line-height: 1.8;
-    text-align: left;
-    color: black;
-    margin: 120px 0 0 0;
-}
-
-.iglesia__container__subtitulo {
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-    line-height: 25px;
-    text-align: left;
-    color: red;
-    margin-bottom: 70px;
-}
-
-.iglesia__container__listado {
+.iglesia__container--parrafo {
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     line-height: 1.8;
     text-align: justify;
     color: black;
     margin-bottom: 20px;
-    list-style: none;
 }
+
+.iglesia__card--uno {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%);
+    background-position: center;
+    background-size: cover;
+}
+
+
 
 /* boton animacion*/
 .iglesia__container__boton {
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr;
-    margin: 2em auto 0em;
+    margin: 6em auto 0;
+    gap: 2em;
 }
 
 .boton {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 50%;
     height: 80px;
-    background: red;
+    background: black;
     color: #fff;
-    /* font-family: 'Montserrat', sans-serif; */
-    font-family: 'Press Start 2P', cursive;
-
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    /* font-weight: 900; */
+    font-weight: 500;
     border: none;
     cursor: pointer;
     text-transform: uppercase;
@@ -221,7 +201,7 @@ body {
     z-index: 1;
     top: 0;
     left: calc(-100% - 80px);
-    border-bottom: 80px solid #286cff;
+    border-bottom: 80px solid red;
     border-right: 80px solid transparent;
     transition: .4s ease-in-out all;
 }
@@ -230,9 +210,36 @@ body {
     left: 0;
 }
 
-.iglesia__container__boton__link {
+.iglesia__container__boton--link {
     text-decoration: none;
 }
+
+/* CARRUSEL */
+
+.iglesia__container__carrousel {
+    max-width: 800px;
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+ 
+}
+.container__carrousel__card{
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    margin: 8px;
+    border-radius: 120px;
+}
+.container__carrousel__card--imagen {
+    width: 200px;
+    margin: 10px;
+}
+
+
 
 
 
@@ -240,9 +247,8 @@ body {
 /* footer */
 footer {
     width: 100%;
-    /* height: 18em; */
     /* position: absolute;
-    bottom: -4;
+    bottom: 0;
     left: 0; */
     background: url(../imagenes/footer3.png);
     background-size: cover;
@@ -254,6 +260,8 @@ footer {
     justify-content: center;
     /* footer abajo */
     margin-top: auto;
+
+
 }
 
 .footer__social i {
@@ -264,7 +272,7 @@ footer {
 
 .footer__contenedor {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     text-align: center;
 }
@@ -306,6 +314,28 @@ footer {
         color: white;
     }
 
+    .nav__link--menu {
+        position: fixed;
+        background: #151E21;
+        color: white;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        pointer-events: none;
+        z-index: 9;
+        opacity: 0;
+        transition: .2s opacity;
+    }
+
     .nav__link--menu a {
         color: white;
         font-size: 25px;
@@ -316,51 +346,36 @@ footer {
         display: none;
     }
 
-    .iglesia__container__titulo {
+    .iglesia__container--titulo {
         font-size: 45px;
         line-height: 40px;
         text-align: center;
-        color: black;
         margin: 0 0 60px 0;
     }
-    .iglesia__container__subtitulo{
-        text-align: center;
-    }
-    .iglesia__container__parrafo--dos{
-        text-align: center;
-    }
 
-    .iglesia__container__parrafo {
+    .iglesia__container--parrafo {
         font-size: 20px;
     }
 
-    .iglesia__container__listado {
-        font-size: 17px;
-        text-align: center;
+    .iglesia__container--info {
+        margin: 12em auto 15em;
     }
 
-    .footer__contenedor {
-        width: 100%;
-        height: auto;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
 
-    }
+    /* footer */
+    /* footer {
+        position: absolute;
+        margin: 2em auto -18em;
+    } */
 
     .footer__social i {
         font-size: 22px;
-        margin: 220px 20px 0px 0px;
+        margin: 220px 10px 0px 0px;
     }
 
     .footer__social {
-        display: flex;
-        width: 150px;
-        height: auto;
         z-index: 8;
-        margin-bottom: 0px;
     }
 
 }
@@ -387,53 +402,41 @@ footer {
         padding: 0;
     }
 
-    .iglesia__container__info {
-        margin: 10em auto 0em;
+    .iglesia__container--info {
+        margin: 10em auto 0;
+
     }
 
-    .iglesia__container__titulo {
+    .iglesia__container--titulo {
+
         line-height: 1.2;
         text-align: center;
-        color: black;
         margin-bottom: 50px;
     }
-    .iglesia__container__subtitulo{
-        line-height: 35px;
-    }
 
-    .iglesia__container__parrafo {
+    .iglesia__container--parrafo {
         width: 100%;
         font-size: 17px;
         line-height: 25px;
         text-align: justify;
     }
-    .iglesia__container__parrafo--dos{
-        font-size: 15px;
-        margin-bottom: 20px;
-    }
-
-    .iglesia__container__listado {
-        font-size: 15px;
-        text-align: justify;
-    }
-
-
 
     .iglesia__container__boton {
         width: 100%;
+        height: auto;
         display: grid;
         grid-template-columns: 1fr;
-        margin: 0em auto 5em;
     }
 
     .boton {
         font-size: 12px;
+        height: 50px;
     }
 
     .footer__contenedor {
         width: 100%;
         height: auto;
-    
+
         display: flex;
         align-items: center;
         justify-content: center;
@@ -442,10 +445,11 @@ footer {
 
     .footer__contenedor p {
         font-size: 10px;
+        background: none;
     }
 
     .footer__social i {
-        margin: 190px 20px 0px 0px;
+        margin: 190px 10px 0px 0px;
     }
 
     .footer__social {
