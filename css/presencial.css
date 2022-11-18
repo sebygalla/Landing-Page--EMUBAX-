@@ -392,32 +392,31 @@ footer {
     }
 
     .iglesia__container__titulo {
-        line-height: 1.2;
-        text-align: center;
-        color: black;
-        margin-bottom: 50px;
+        font-size: 30px;
+        text-align: left;
     }
     .iglesia__container__subtitulo{
-        line-height: 35px;
+        font-size: 25px;
+        line-height: 1.8;
+        text-align: left;
     }
 
     .iglesia__container__parrafo {
-        width: 100%;
-        font-size: 17px;
-        line-height: 25px;
-        text-align: justify;
+        font-size: 15px;
+        line-height: 1.8;
+        text-align: left;
     }
     .iglesia__container__parrafo--dos{
         font-size: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+        text-align: left;
     }
 
     .iglesia__container__listado {
         font-size: 15px;
-        text-align: justify;
+        text-align: left;
+        line-height: 1.8;
     }
-
-
 
     .iglesia__container__boton {
         width: 100%;
@@ -427,7 +426,7 @@ footer {
     }
 
     .boton {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .footer__contenedor {

@@ -291,6 +291,43 @@ body {
     rotate: 10deg;
 }
 
+/* marquesina */
+marquee {
+    width: 100%;
+    margin-bottom: 8em;
+    display: flex;
+    align-items: baseline;
+    overflow: hidden;
+}
+
+.spanUno {
+    color: red;
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 1em;
+}
+
+.spanDos {
+    color: rgb(18, 106, 222);
+    font-size: 60px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 1em;
+}
+
+.spanTres {
+    color: rgb(43, 176, 36);
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 1em;
+}
+
+.spanCuatro {
+    color: rgb(222, 18, 198);
+    font-size: 90px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 1em;
+}
+
 /* boton animacion*/
 .iglesia__container__boton {
     width: 100%;
@@ -634,12 +671,9 @@ footer {
 
     /* inicio */
     .iglesia__container__parrafo--grid {
-
-        font-family: 'Montserrat', sans-serif;
-        font-size: 17px;
+        font-size: 15px;
         line-height: 1.8;
-        text-align: justify;
-        color: black;
+        text-align: left;
         margin-bottom: 20px;
     }
 
@@ -652,23 +686,21 @@ footer {
 
 
     .iglesia__container__titulo {
-
-        font-size: 60px;
-        text-align: center;
-        margin-bottom: 30px;
+        font-size: 30px;
+        text-align: left;
     }
 
     .iglesia__container__tituloDos {
-        font-size: 35px;
-        line-height: 40px;
-        text-align: center;
+        font-size: 25px;
+        line-height: 1.8;
+        text-align: left;
         margin: 40px auto;
     }
 
     .iglesia__container__parrafo {
         line-height: 1.8;
-        font-size: 17px;
-        text-align: justify;
+        font-size: 15px;
+        text-align: left;
     }
 
     .iglesia__container__parrafoDos {
@@ -682,25 +714,32 @@ footer {
 
     .iglesia__container__parrafo--dos {
         font-size: 15px;
-        margin-bottom: 20px;
-        text-align: center;
+        margin-bottom: 30px;
+        text-align: left;
     }
 
     .iglesia__container__listado {
         font-size: 15px;
-        text-align: center;
+        line-height: 1.8;
+        text-align: left;
     }
-    .iglesia__container__subtitulo{
+
+    .iglesia__container__subtitulo {
+        font-size: 25px;
         margin-top: 2em;
-        text-align: center;
+        text-align: left;
     }
 
     .imgDos {
-        width: 280px;
+        width: 320px;
+    }
+
+    .imgTres {
+        width: 400px;
     }
 
     .imgCuatro {
-        width: 350px;
+        width: 450px;
     }
 
     /* Adornos (rectangulos) */
@@ -736,6 +775,46 @@ footer {
         rotate: 10deg;
     }
 
+
+    /* marquesina */
+    marquee {
+        width: 100%;
+        margin-bottom: 8em;
+        display: flex;
+        align-items: baseline;
+        overflow: hidden;
+    }
+
+    .spanUno {
+        color: red;
+        font-size: 30px;
+        font-family: 'Press Start 2P', cursive;
+        margin: .5em;
+    }
+
+    .spanDos {
+        color: rgb(18, 106, 222);
+        font-size: 50px;
+        font-family: 'Press Start 2P', cursive;
+        margin: .5em;
+    }
+
+    .spanTres {
+        color: rgb(43, 176, 36);
+        font-size: 40px;
+        font-family: 'Press Start 2P', cursive;
+        margin: .5em;
+    }
+
+    .spanCuatro {
+        color: rgb(222, 18, 198);
+        font-size: 60px;
+        font-family: 'Press Start 2P', cursive;
+        margin: .5em;
+    }
+
+
+
     /* boton */
     .boton {
         height: auto;
@@ -749,7 +828,17 @@ footer {
     }
 
     .video {
-        width: 90%;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    .boton.uno {
+        font-size: 10px;
     }
 
 
