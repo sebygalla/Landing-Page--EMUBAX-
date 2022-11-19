@@ -205,6 +205,7 @@ body {
 .imgUno {
     width: 480px;
     margin-bottom: 120px;
+    position: relative;
 }
 
 .imgDos {
@@ -298,34 +299,48 @@ marquee {
     display: flex;
     align-items: baseline;
     overflow: hidden;
+
+    position: absolute;
+    bottom: -10%;
 }
 
 .spanUno {
     color: red;
-    font-size: 50px;
+    font-size: 15px;
     font-family: 'Press Start 2P', cursive;
-    margin: 1em;
+    margin: 2em;
+
 }
 
 .spanDos {
     color: rgb(18, 106, 222);
-    font-size: 60px;
+    font-size: 15px;
     font-family: 'Press Start 2P', cursive;
-    margin: 1em;
+    margin: 2em;
 }
 
 .spanTres {
     color: rgb(43, 176, 36);
-    font-size: 40px;
+    font-size: 15px;
     font-family: 'Press Start 2P', cursive;
-    margin: 1em;
+    margin: 2em;
 }
 
 .spanCuatro {
     color: rgb(222, 18, 198);
-    font-size: 90px;
+    font-size: 15px;
     font-family: 'Press Start 2P', cursive;
-    margin: 1em;
+    margin: 2em;
+}
+
+.marqueeDos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+    position: absolute;
+    bottom: -12%;
 }
 
 /* boton animacion*/
@@ -787,28 +802,28 @@ footer {
 
     .spanUno {
         color: red;
-        font-size: 30px;
+        font-size: 16px;
         font-family: 'Press Start 2P', cursive;
         margin: .5em;
     }
 
     .spanDos {
         color: rgb(18, 106, 222);
-        font-size: 50px;
+        font-size: 26px;
         font-family: 'Press Start 2P', cursive;
         margin: .5em;
     }
 
     .spanTres {
         color: rgb(43, 176, 36);
-        font-size: 40px;
+        font-size: 16px;
         font-family: 'Press Start 2P', cursive;
         margin: .5em;
     }
 
     .spanCuatro {
         color: rgb(222, 18, 198);
-        font-size: 60px;
+        font-size: 36px;
         font-family: 'Press Start 2P', cursive;
         margin: .5em;
     }
