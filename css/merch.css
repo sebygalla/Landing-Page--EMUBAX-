@@ -196,6 +196,13 @@ body {
     left: -10%;
 }
 
+.remeraDos img {
+    width: 600px;
+    position: absolute;
+    top: -20%;
+    left: -60%;
+}
+
 .carrousel__texto {
     width: 50%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -226,7 +233,11 @@ body {
 }
 
 .carrousel__btn button {
+    font-size: 10px;
+    font-weight: 600;
     background-color: yellow;
+    margin-top: 20px;
+    border-radius: 4px;
     border: none;
     padding: 8px;
     color: black;
@@ -248,6 +259,11 @@ body {
     bottom: 0;
     z-index: 0;
 }
+
+
+
+/* CARRITO  */
+
 
 
 
@@ -440,6 +456,14 @@ footer {
         position: absolute;
         top: -100%;
         left: -50%;
+    }
+
+    
+    .remeraDos img {
+        width: 600px;
+        position: absolute;
+        top: -10%;
+        left: -65%;
     }
 
     .tazas img {
