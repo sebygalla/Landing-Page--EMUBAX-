@@ -131,7 +131,8 @@ body {
 .iglesia__container__titulo {
     font-family: 'Oswald', sans-serif;
     font-size: 45px;
-    line-height: 25px;
+    /* line-height: 25px; */
+    line-height: 1.8;
     text-align: left;
     color: black;
     margin-bottom: 70px;

@@ -133,7 +133,7 @@ body {
 
 .iglesia__container__titulo {
     font-family: 'Oswald', sans-serif;
-    font-size: 75px;
+    font-size: 45px;
     line-height: 1.8;
     text-align: left;
     color: black;
@@ -631,6 +631,11 @@ footer {
         width: 100%;
     }
 
+    .iglesia__container__titulo {
+        font-size: 30px;
+        text-align: left;
+    }
+
     .iglesia__container__info {
         width: 90%;
         display: flex;
@@ -668,7 +673,7 @@ footer {
     }
     .header span{
         width: 100%;
-        height: 50%;
+        height: 40%;
         background-color: #286cff;
         position: absolute;
         top: 0;
