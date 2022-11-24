@@ -226,13 +226,19 @@ body {
 }
 
 .header {
+    width: 1400px;
+    height: 300px;
     border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .header,
 .descripcion {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -242,15 +248,18 @@ body {
 }
 
 .header img {
-    width: 200px;
+    width: 150px;
     border: none;
     overflow: hidden;
     margin: 0 auto;
     transition: .2s;
-
+    border-radius: 100%;
+    filter: contrast(1.4);
 }
 
 .header h2 {
+    font-size: 20px;
+    font-weight: 900;
     color: #f0522a;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -258,8 +267,9 @@ body {
 }
 
 .header h4 {
+    font-size: 12px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 
@@ -562,11 +572,12 @@ footer {
     }
 
     .header img {
-        width: 200px;
+        width: 150px;
     }
 
     .descripcion p {
-        font-size: 10px;
+        font-size: 14px;
+        padding: 1.5em;
         margin: auto;
     }
 
@@ -647,17 +658,29 @@ footer {
     .iglesia__container__card {
         width: 90%;
         flex-wrap: wrap;
+        position: relative;
     }
 
     .header {
         border-right: none;
+        position: relative;
+        
+    }
+    .header span{
+        width: 100%;
+        height: 50%;
+        background-color: #286cff;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
     .header img {
         width: 180px;
         background-color: #286cff;
-        border-radius: 200%;
+        border-radius: 50%;
         filter: contrast(1.4);
+        object-fit: cover;
     }
 
     .header h2 {
