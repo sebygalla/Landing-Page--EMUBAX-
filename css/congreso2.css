@@ -645,24 +645,27 @@ footer {
     /* card */
     .iglesia__container__card {
         width: 90%;
+        flex-wrap: wrap;
     }
 
     .header img {
-        width: 130px;
+        width: 200px;
     }
     .header h2{
-        font-size: 18px;
+        font-size: 20px;
     }
     .header h4{
-        font-size: 12px;
+        font-size: 14px;
+        margin: 0;
     }
 
     .descripcion p {
-        font-size: 10px;
+        font-size: 15px;
       
     }
     .descripcion{
         width: 100%;
+        margin-bottom: 1em;
     }
 
 
