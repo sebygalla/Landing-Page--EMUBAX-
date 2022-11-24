@@ -187,7 +187,7 @@ body {
 }
 
 .iglesia__container__parrafo--grid span {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bold;
     color: black;
 }
@@ -345,6 +345,14 @@ marquee {
     position: absolute;
     bottom: -12%;
     z-index: -9;
+}
+
+/* linea */
+.line {
+    width: 900px;
+    height: 6px;
+    background: rgba(137, 43, 226, 0.407);
+ 
 }
 
 /* boton animacion*/
