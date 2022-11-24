@@ -243,6 +243,7 @@ body {
 
 .header img {
     width: 200px;
+    border: none;
     overflow: hidden;
     margin: 0 auto;
     transition: .2s;
@@ -648,22 +649,33 @@ footer {
         flex-wrap: wrap;
     }
 
-    .header img {
-        width: 200px;
+    .header {
+        border-right: none;
     }
-    .header h2{
+
+    .header img {
+        width: 180px;
+        background-color: #286cff;
+        border-radius: 200%;
+        filter: contrast(1.4);
+    }
+
+    .header h2 {
+        margin-top: 1em;
         font-size: 20px;
     }
-    .header h4{
+
+    .header h4 {
         font-size: 14px;
         margin: 0;
     }
 
     .descripcion p {
         font-size: 15px;
-      
+
     }
-    .descripcion{
+
+    .descripcion {
         width: 100%;
         margin-bottom: 1em;
     }
