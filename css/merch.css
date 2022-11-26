@@ -245,27 +245,6 @@ body {
     left: 0;
 }
 
-.remera img {
-    width: 650px;
-    position: absolute;
-    top: -120%;
-    left: -60%;
-}
-
-.tazas img {
-    width: 410px;
-    position: absolute;
-    top: 0;
-    left: -10%;
-}
-
-.remeraDos img {
-    width: 600px;
-    position: absolute;
-    top: -20%;
-    left: -60%;
-}
-
 .carrousel__texto {
     width: 50%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -277,19 +256,19 @@ body {
 
 .carrousel__texto h2 {
     width: 100%;
-    font-size: 30px;
+    font-size: 20px;
     margin: 6px auto;
 }
 
 .carrousel__texto h3 {
     width: 100%;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 100;
     margin: 6px auto;
 }
 
 .carrousel__texto h4 {
-    font-size: 25px;
+    font-size: 20px;
 
     font-weight: 600;
     margin: 6px auto;
@@ -452,12 +431,71 @@ footer {
         filter: drop-shadow(0 0 0.25rem rgba(251, 250, 248, 0.408));
     }
 
-    .remera img {
-        width: 500px;
-        position: absolute;
-        top: -100%;
-        left: -50%;
+
+    /* Merch */
+    .carrousel__card {
+        width: 80%;
     }
+
+    .carrousel__texto {
+        line-height: 20px;
+        width: 100%;
+        margin-top: 18em;
+        z-index: 999;
+    }
+
+
+    /* remera wifi */
+    .carrousel__imagen .wifiUno {
+        width: 300px;
+        top: 0%;
+        left: 5%;
+    }
+
+    .carrousel__imagen .wifiDos {
+        width: 250px;
+        top: -10%;
+        left: 45%;
+    }
+
+
+
+    /* remera no pasa de moda */
+    .carrousel__imagen .pasaUno {
+        width: 300px;
+        top: 0%;
+        left: 5%;
+    }
+
+    .carrousel__imagen .pasaDos {
+        width: 250px;
+        top: -10%;
+        left: 45%;
+    }
+
+
+    /* remera gen z */
+    .carrousel__imagen .genUno {
+        width: 300px;
+        top: 0%;
+        left: 5%;
+    }
+
+    .carrousel__imagen .genDos {
+        width: 250px;
+        top: -10%;
+        left: 45%;
+    }
+
+
+    /* remera el amor */
+    .carrousel__imagen .nofalla__Uno {
+        width: 300px;
+        top: 0%;
+        left: 5%;
+    }
+
+
 
     /* footer */
     .footer__social i {
@@ -471,8 +509,8 @@ footer {
 
 }
 
-/* A20 Samsung */
-@media screen and (max-width: 424px) {
+/* A20 Samsung 424px*/
+@media screen and (max-width: 600px) {
 
     .nav__logo img {
         width: 180px;
@@ -517,7 +555,7 @@ footer {
         z-index: 999;
     }
 
-    
+
     /* remera wifi */
     .carrousel__imagen .wifiUno {
         width: 250px;
@@ -546,7 +584,7 @@ footer {
         left: 45%;
     }
 
-    
+
     /* remera gen z */
     .carrousel__imagen .genUno {
         width: 250px;
@@ -560,7 +598,7 @@ footer {
         left: 45%;
     }
 
-    
+
     /* remera el amor */
     .carrousel__imagen .nofalla__Uno {
         width: 250px;
@@ -568,35 +606,13 @@ footer {
         left: -10%;
     }
 
-        width: 200px;
-        top: 0;
-        left: 45%;
-    }
 
 
 
 
-    .remera img {
-        width: 500px;
-        position: absolute;
-        top: -100%;
-        left: -50%;
-    }
 
 
-    .remeraDos img {
-        width: 600px;
-        position: absolute;
-        top: -10%;
-        left: -65%;
-    }
 
-    .tazas img {
-        width: 350px;
-        position: absolute;
-        top: 10%;
-        left: -10%;
-    }
 
     .footer__contenedor {
         width: 100%;
