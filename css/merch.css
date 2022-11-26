@@ -537,10 +537,12 @@ footer {
     }
 
     .iglesia__container--titulo {
-
         line-height: 1.2;
         text-align: center;
         margin-bottom: 50px;
+    }
+    .iglesia__container--parrafo{
+        line-height: normal;
     }
 
     /* Merch */
@@ -584,7 +586,6 @@ footer {
         left: 45%;
     }
 
-
     /* remera gen z */
     .carrousel__imagen .genUno {
         width: 250px;
@@ -598,21 +599,12 @@ footer {
         left: 45%;
     }
 
-
     /* remera el amor */
     .carrousel__imagen .nofalla__Uno {
         width: 250px;
         top: 0;
         left: -10%;
     }
-
-
-
-
-
-
-
-
 
     .footer__contenedor {
         width: 100%;

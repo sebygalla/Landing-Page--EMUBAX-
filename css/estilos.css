@@ -488,13 +488,6 @@ footer {
         background-size: contain;
     }
 
-    /* youtube */
-    .iglesia__card--cinco {
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: bottom;
-    }
-
     /* Footer */
     footer {
         width: 100%;
