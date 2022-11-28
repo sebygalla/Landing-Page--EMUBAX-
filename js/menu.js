@@ -1,12 +1,9 @@
 //variable preloader
 const preloader = document.querySelector('.preloader');
 
-window.onload = function () 
-{  
-    setTimeout(() => {
-        preloader.style.display = 'none';
-      }, 3000)
-    
+window.onload = function () {
+    preloader.style.display = 'none';
+
 }
 
 
@@ -36,7 +33,7 @@ window.addEventListener('scroll', () => {
             menu.style.color = 'white';
             links.style.color = 'white';
             subscribe.style.display = 'flex';
-            
+
 
         } else {
             img.src = "imagenes/logoNegro.png";
@@ -68,7 +65,7 @@ menu.addEventListener('click', () => {
     menu.style.display = 'none';
     close.style.display = 'block';
     close.style.color = 'white';
-   
+
 
 });
 
