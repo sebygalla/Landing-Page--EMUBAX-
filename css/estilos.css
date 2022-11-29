@@ -365,10 +365,11 @@ footer {
     }
 
     .nav__link {
-      
+
         color: white;
 
     }
+
 
     .nav__link--menu {
         position: fixed;
@@ -401,6 +402,8 @@ footer {
 
     .nav__avatar {
         display: block;
+        right: 0;
+
     }
 
     .iglesia__container--card {
@@ -475,6 +478,10 @@ footer {
         padding: 0;
     }
 
+    .nav__avatar {
+        right: 0px;
+    }
+
     /* cards */
     .iglesia__container--card {
         width: 90%;
@@ -482,9 +489,10 @@ footer {
         gap: .5em;
     }
 
-    .iglesia__card{
+    .iglesia__card {
         width: 100%;
     }
+
     /* instagram */
     .iglesia__card--cuatro {
         background-size: contain;
