@@ -2,7 +2,10 @@
 const preloader = document.querySelector('.preloader');
 
 window.onload = function () {
-    preloader.style.display = 'none';
+    setTimeout(() => {
+        preloader.style.display = 'none';
+    }, "3000")
+
 
 }
 
