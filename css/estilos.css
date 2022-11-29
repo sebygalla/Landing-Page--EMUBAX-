@@ -209,7 +209,7 @@ a {
 }
 
 .iglesia__container--card {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -219,7 +219,7 @@ a {
 }
 
 .iglesia__card {
-    width: 60%;
+    width: 100%;
     height: 50vh;
     display: flex;
     align-items: flex-end;
@@ -245,7 +245,7 @@ a {
 
 /* presencial */
 .iglesia__card--uno {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%), url('../imagenes/presencial.jpg');
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%), url('../imagenes/presencial.png');
     background-position: center;
     background-size: cover;
 }
@@ -266,8 +266,8 @@ a {
 
 /* youtube */
 .iglesia__card--cinco {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%), url(../imagenes/miniatura\ YT.png);
-    background-position: top;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, .7) 100%), url(../imagenes/yt.jpg);
+    background-position: center;
     background-size: cover;
 }
 
@@ -347,7 +347,7 @@ footer {
     }
 
     .nav__menu {
-        display: block;
+        display: none;
         font-size: 30px;
     }
 
@@ -365,6 +365,7 @@ footer {
     }
 
     .nav__link {
+      
         color: white;
 
     }
@@ -399,26 +400,22 @@ footer {
     }
 
     .nav__avatar {
-        display: none;
+        display: block;
     }
 
     .iglesia__container--card {
         margin: 7em auto -7em;
+        width: 100%;
     }
 
     .iglesia__card {
-        width: 90%;
+        width: 70%;
         height: 30vh;
     }
 
 
 
     /* footer */
-    /* footer {
-        position: absolute;
-        bottom: -30%;
-        left: 0;
-    } */
 
     .footer__contenedor {
         width: 100%;
@@ -480,10 +477,14 @@ footer {
 
     /* cards */
     .iglesia__container--card {
+        width: 90%;
         margin-bottom: -6em;
         gap: .5em;
     }
 
+    .iglesia__card{
+        width: 100%;
+    }
     /* instagram */
     .iglesia__card--cuatro {
         background-size: contain;
