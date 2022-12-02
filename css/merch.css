@@ -122,11 +122,10 @@ body {
     width: 90%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     z-index: 1;
-    margin: 12em auto 10em;
+    margin: 10em 0 10em 0;
     /* background-color: aqua; */
 }
 
@@ -134,9 +133,9 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
     line-height: 25px;
-    text-align: center;
+    text-align: left;
     color: black;
-    margin: 70px;
+    margin: 70px 0;
 }
 
 .iglesia__container--parrafo {
@@ -242,6 +241,14 @@ body {
     width: 320px;
     position: absolute;
     top: 0;
+    left: 0;
+}
+
+/* remera Chill bro! */
+.carrousel__imagen .chill__Uno {
+    width: 360px;
+    position: absolute;
+    top: -40px;
     left: 0;
 }
 
@@ -509,6 +516,14 @@ footer {
         left: 5%;
     }
 
+
+    /* chill bro */
+    .carrousel__imagen .chill__Uno {
+        width: 300px;
+        top: 0%;
+        left: 5%;
+    }
+
     /* Cuaderno */
     .carrousel__imagen .cuaderno__Uno {
         width: 400px;
@@ -565,12 +580,13 @@ footer {
 
     .iglesia__container--titulo {
         line-height: 1.2;
-        text-align: center;
         margin-bottom: 50px;
     }
 
     .iglesia__container--parrafo {
-        line-height: normal;
+        font-size: 15px;
+        line-height: 1.8;
+        text-align: left;
     }
 
     /* Merch */
@@ -629,6 +645,13 @@ footer {
 
     /* remera el amor */
     .carrousel__imagen .nofalla__Uno {
+        width: 250px;
+        top: 0;
+        left: -10%;
+    }
+
+    /* chill bro */
+    .carrousel__imagen .chill__Uno {
         width: 250px;
         top: 0;
         left: -10%;
