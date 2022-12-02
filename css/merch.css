@@ -135,7 +135,7 @@ body {
     line-height: 25px;
     text-align: left;
     color: black;
-    margin: 70px 0;
+    margin: 70px auto;
 }
 
 .iglesia__container--parrafo {
@@ -581,6 +581,7 @@ footer {
     .iglesia__container--titulo {
         line-height: 1.2;
         margin-bottom: 50px;
+        text-align: left;
     }
 
     .iglesia__container--parrafo {
@@ -652,9 +653,9 @@ footer {
 
     /* chill bro */
     .carrousel__imagen .chill__Uno {
-        width: 250px;
-        top: 0;
-        left: -10%;
+        width: 300px;
+        top: -20px;
+        left: -13%;
     }
 
 
