@@ -440,7 +440,7 @@ footer {
     .iglesia__container--titulo {
         font-size: 45px;
         line-height: 40px;
-        text-align: center;
+        text-align: left;
         margin: 0 0 60px 0;
     }
 
@@ -579,7 +579,7 @@ footer {
     }
 
     .iglesia__container--titulo {
-        line-height: 1.2;
+        font-size: 30px;
         margin-bottom: 50px;
         text-align: left;
     }
