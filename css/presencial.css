@@ -502,13 +502,15 @@ footer {
     }
 
     .iglesia__container__mockup img {
-        width: 800px;
+        width: 100%;
     }
 
     .iglesia__container__mockup--parrafo {
+        width: 90%;
         font-size: 1.1em;
         padding: auto;
         background: crimson;
+        margin: 1em auto;
        
     }
 
