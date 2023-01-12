@@ -254,6 +254,7 @@ body {
 }
 
 .iglesia__container__mockup--parrafo {
+    font-family: 'Montserrat', sans-serif;
     background-color: blueviolet;
     font-weight: 100;
     font-size: 1.2em;
@@ -507,7 +508,7 @@ footer {
 
     .iglesia__container__mockup--parrafo {
         width: 90%;
-        font-size: 1.1em;
+        font-size: 1em;
         padding: auto;
         background: crimson;
         margin: 1em auto;
