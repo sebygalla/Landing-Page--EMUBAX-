@@ -235,15 +235,35 @@ body {
     text-decoration: none;
 }
 
-.iglesia__container__mockup{
+/* mockup */
+
+.iglesia__container__mockup {
     width: 100%;
-    margin-top: 1em;
-    background: #286cff;
+    background: blueviolet;
+    margin: 2em auto;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
+
+.iglesia__container__mockup img {
+    width: 100%;
+
+}
+
+.iglesia__container__mockup--parrafo {
+    background-color: blueviolet;
+    font-weight: 100;
+    font-size: 1.2em;
+    padding: 2em;
+    text-align: left;
+    color: #fff;
+
+}
+
+
 
 
 
@@ -336,10 +356,12 @@ footer {
         color: black;
         margin: 0 0 60px 0;
     }
-    .iglesia__container__subtitulo{
+
+    .iglesia__container__subtitulo {
         text-align: center;
     }
-    .iglesia__container__parrafo--dos{
+
+    .iglesia__container__parrafo--dos {
         text-align: center;
     }
 
@@ -350,6 +372,27 @@ footer {
     .iglesia__container__listado {
         font-size: 17px;
         text-align: center;
+    }
+
+    /* mockup */
+
+    .iglesia__container__mockup {
+        width: 100%;
+        background: blueviolet;
+        margin: 2em auto 0em;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .iglesia__container__mockup img {
+        width: 60%;
+    }
+
+    .iglesia__container__mockup--parrafo {
+        font-size: 1em;
     }
 
     .footer__contenedor {
@@ -408,7 +451,8 @@ footer {
         font-size: 30px;
         text-align: left;
     }
-    .iglesia__container__subtitulo{
+
+    .iglesia__container__subtitulo {
         font-size: 25px;
         line-height: 1.8;
         text-align: left;
@@ -419,7 +463,8 @@ footer {
         line-height: 1.8;
         text-align: left;
     }
-    .iglesia__container__parrafo--dos{
+
+    .iglesia__container__parrafo--dos {
         font-size: 15px;
         margin-bottom: 40px;
         text-align: left;
@@ -442,10 +487,36 @@ footer {
         font-size: 10px;
     }
 
+    /* mockup */
+
+    .iglesia__container__mockup {
+        width: 100%;
+        background: blueviolet;
+        margin: 2em auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .iglesia__container__mockup img {
+        width: 800px;
+    }
+
+    .iglesia__container__mockup--parrafo {
+        font-size: 1.1em;
+        padding: auto;
+        background: crimson;
+       
+    }
+
+
     .footer__contenedor {
         width: 100%;
         height: auto;
-    
+
         display: flex;
         align-items: center;
         justify-content: center;
