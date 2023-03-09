@@ -75,21 +75,6 @@ a {
     }
 }
 
-/* @keyframes move {
-    0% {
-        scale: 0;
-    }
-
-    50% {
-        transform: rotate(180deg);
-        scale: 1;
-    }
-
-    100% {
-        scale: 1;
-    }
-} */
-
 
 /* barra de navegacion */
 .nav {
