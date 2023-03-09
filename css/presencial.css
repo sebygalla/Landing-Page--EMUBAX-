@@ -235,42 +235,6 @@ body {
     text-decoration: none;
 }
 
-/* mockup */
-
-.iglesia__container__mockup {
-    width: 100%;
-    background: blueviolet;
-    margin: 2em auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.iglesia__container__mockup img {
-    width: 100%;
-
-}
-
-.iglesia__container__mockup--parrafo {
-    font-family: 'Montserrat', sans-serif;
-    background-color: blueviolet;
-    font-weight: 100;
-    font-size: 1.2em;
-    padding: 2em;
-    text-align: left;
-    color: #fff;
-
-}
-
-
-
-
-
-
-
-
 /* footer */
 footer {
     width: 100%;
