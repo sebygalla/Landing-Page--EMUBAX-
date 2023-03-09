@@ -339,26 +339,11 @@ footer {
         text-align: center;
     }
 
-    /* mockup */
-
-    .iglesia__container__mockup {
-        width: 100%;
-        background: blueviolet;
-        margin: 2em auto 0em;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
+    .boton {
+        height: 40px;
+        font-size: 10px;
     }
 
-    .iglesia__container__mockup img {
-        width: 60%;
-    }
-
-    .iglesia__container__mockup--parrafo {
-        font-size: 1em;
-    }
 
     .footer__contenedor {
         width: 100%;
@@ -453,7 +438,7 @@ footer {
         font-size: 10px;
     }
 
-  
+
 
 
     .footer__contenedor {
