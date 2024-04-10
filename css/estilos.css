@@ -497,7 +497,6 @@ footer {
 
     .iglesia__card {
         width: 90%;
-        height: 100px;
         
     }
 
@@ -537,3 +536,12 @@ footer {
         z-index: 8;
     }
 }
+
+/* Motorola g42 */
+@media screen and (max-width: 524px) {
+    .iglesia__card {
+        width: 90%;
+        height: 100px
+        
+    }
+};
