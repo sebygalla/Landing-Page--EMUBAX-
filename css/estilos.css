@@ -44,7 +44,7 @@ a {
 .preloader {
     width: 100vw;
     height: 100vh;
-    background: orangered;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -453,7 +453,7 @@ footer {
 @media screen and (max-width: 424px) {
 
     .preloader__img {
-        width: 60%;
+        width: 80%;
         margin-bottom: 70px;
         animation: move 2s ease-in-out;
     }
@@ -497,6 +497,7 @@ footer {
 
     .iglesia__card {
         width: 90%;
+        height: 100px;
     }
 
     /* instagram */
@@ -507,6 +508,8 @@ footer {
     /* Footer */
     footer {
         width: 100%;
+        position: absolute;
+        bottom: 0;
         /* height: 250px; */
         background-size: cover;
         /* position: absolute; */
