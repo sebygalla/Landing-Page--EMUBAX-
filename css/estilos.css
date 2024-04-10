@@ -497,7 +497,7 @@ footer {
 
     .iglesia__card {
         width: 90%;
-        height: 100px;
+        
     }
 
     /* instagram */
@@ -508,8 +508,7 @@ footer {
     /* Footer */
     footer {
         width: 100%;
-        position: absolute;
-        bottom: 0;
+      
         /* height: 250px; */
         background-size: cover;
         /* position: absolute; */
