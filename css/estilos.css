@@ -193,6 +193,7 @@ a {
 }
 
 .iglesia__card--ancla {
+    width: 100%;
     transition-property: background, filter, opacity;
     outline: none;
     transition-duration: .3s;
@@ -201,6 +202,7 @@ a {
     opacity: 1;
     display: inline-block;
     text-decoration: none;
+  
 
 }
 
@@ -211,12 +213,12 @@ a {
     text-align: center;
     z-index: 1;
     margin: 10em auto 1em;
-    gap: 4em;
+
 }
 
 .iglesia__card {
-    width: 60%;
-    height: 50vh;
+    width: 90%;
+    height: 25vh;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -234,7 +236,7 @@ a {
 
 .iglesia__titulo {
     /* font-family: 'Press Start 2P', cursive; */
-    font-size: 10px;
+    font-size: 16px;
     color: white;
     margin-bottom: 20px;
 }
@@ -415,7 +417,7 @@ footer {
 
     .iglesia__card {
         width: 90%;
-        height: 30vh;
+        height: 15vh;
     }
 
     /* footer */
@@ -587,6 +589,8 @@ footer {
         width: 100%;
         position: absolute;
         bottom: 0;
+  
+        
      
         
     }
@@ -597,8 +601,8 @@ footer {
 
 
     .footer__social {
-        width: 100%;
-        margin-top: 220px;
+        
+        margin-top: 100px;
         z-index: 999;
     }
 
