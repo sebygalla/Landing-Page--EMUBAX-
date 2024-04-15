@@ -133,7 +133,7 @@ body {
     font-size: 45px;
     /* line-height: 25px; */
     line-height: 1.8;
-    text-align: left;
+    text-align: center;
     color: black;
     margin-bottom: 70px;
 }
@@ -152,7 +152,7 @@ body {
     font-size: 17px;
     font-weight: 100;
     line-height: 1.8;
-    text-align: left;
+    text-align: center;
     color: black;
     margin: 120px 0 0 0;
 }
@@ -161,7 +161,7 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     line-height: 25px;
-    text-align: left;
+    text-align: center;
     color: red;
     margin-bottom: 70px;
 }
@@ -192,8 +192,9 @@ body {
     height: 60px;
     background: red;
     color: #fff;
-    /* font-family: 'Montserrat', sans-serif; */
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    /* font-family: 'Press Start 2P', cursive; */
 
     font-size: 16px;
     /* font-weight: 900; */

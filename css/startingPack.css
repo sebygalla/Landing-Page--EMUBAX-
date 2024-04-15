@@ -25,7 +25,8 @@ body {
 
     font-family: 'Poppins', sans-serif;
     /* background: #30336b; */
-    background: #81ecec;
+    /* background: #81ecec; */
+    background: yellow;
     scroll-behavior: smooth;
     position: relative;
     overflow-x: hidden;
