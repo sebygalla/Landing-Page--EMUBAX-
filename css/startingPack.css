@@ -419,7 +419,7 @@ footer {
     }
 
     .footer__contenedor p {
-       
+        font-size: 9px;
         background: none;
     }
 
