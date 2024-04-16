@@ -599,12 +599,16 @@ footer {
         font-size: 10px;
     }
 
-
-    .footer__social {
-        
-        margin-top: 100px;
-        z-index: 999;
+    .footer__social {   
+        margin: 50px auto 0 ;
+        z-index: 999;  
     }
+
+    .footer__social i{
+        font-size: 25px;
+    }
+
+ 
 
 
 
