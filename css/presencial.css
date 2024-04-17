@@ -373,7 +373,7 @@ footer {
 }
 
 /* A20 Samsung */
-@media screen and (max-width: 424px) {
+/* @media screen and (max-width: 424px) {
 
     .nav__logo img {
         width: 180px;
@@ -464,7 +464,7 @@ footer {
         z-index: 8;
     }
 
-}
+} */
 
 
     /* Motorola g42 */
