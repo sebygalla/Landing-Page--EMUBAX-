@@ -442,6 +442,13 @@ footer {
         animation: move 2s ease-in-out;
     }
 
+    .iglesia__container--parrafo {
+        width: 100%;
+        font-size: 15px;
+        line-height: 1.8;
+        text-align: justify;
+    }
+
 
     .iglesia__card {
         width: 90%;

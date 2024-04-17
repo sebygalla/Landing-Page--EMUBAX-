@@ -475,6 +475,57 @@ footer {
             margin-bottom: 70px;
             animation: move 2s ease-in-out;
         }
+
+        .iglesia__container__info {
+            margin: 8em auto 0em;
+        }
+    
+        .iglesia__container__titulo {
+            font-size: 24px;
+            line-height: 1.3;
+            letter-spacing: 1px;
+            text-align: left;
+        }
+    
+        .iglesia__container__subtitulo {
+            font-size: 20px;
+            line-height: 1.3;
+            text-align: left;
+        }
+    
+        .iglesia__container__parrafo {
+            font-size: 15px;
+            line-height: 1.6;
+            text-align: left;
+            margin: 0 0 60px 0;
+        }
+    
+        /* .iglesia__container__parrafo--dos {
+            font-size: 15px;
+            margin-bottom: 40px;
+            text-align: left;
+        } */
+    
+        .iglesia__container__listado {
+            font-size: 15px;
+            text-align: left;
+            line-height: 1.8;
+            margin: 0 0 20px 0;
+        }
+    
+        .iglesia__container__boton {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 2em auto 2em;
+        }
+    
+        .boton {
+            height: 40px;
+            font-size: 10px;
+        }
+
+        
     
     
         .iglesia__card {
@@ -487,15 +538,15 @@ footer {
     
     .container {
         width: 100%;
-        margin: 1em auto;
+        margin: auto;
+      
     }
     
     .iglesia__container {
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
-      
+        justify-content: center;  
     }
     
     .iglesia__container--card {
