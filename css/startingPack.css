@@ -196,7 +196,7 @@ body {
     list-style: none;
 }
 
-.boton.uno::after {
+.boton.dos::after {
     content: "";
     width: 100%;
     position: absolute;
@@ -208,7 +208,7 @@ body {
     transition: .4s ease-in-out all;
 }
 
-.boton.uno:hover::after {
+.boton.dos:hover::after {
     left: 0;
 }
 
@@ -354,6 +354,8 @@ footer {
     }
 
 }
+
+
 
 /* A20 Samsung */
 /* @media screen and (max-width: 424px) {
