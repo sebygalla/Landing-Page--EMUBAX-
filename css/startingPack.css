@@ -143,7 +143,7 @@ body {
 
 .iglesia__container--parrafo {
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 100;
     text-align: justify;
     color: #767676;
@@ -440,9 +440,13 @@ footer {
 
     .iglesia__container--parrafo {
         width: 100%;
-        font-size: 15px;
         line-height: 1.8;
         text-align: justify;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        margin: 30px auto;
+        color: #767676;
+        list-style: none;
     }
 
 
@@ -474,7 +478,7 @@ footer {
 
      /* FOOTER */
      footer {
-        height: 30%;
+        height: 10%;
     }
 
     .footer__social p {
