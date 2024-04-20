@@ -409,7 +409,7 @@ footer {
     }
 
     .iglesia__container--titulo {
-        font-size: 40px;
+        font-size: 60px;
     }
 
     .iglesia__container__titulo {
@@ -422,6 +422,7 @@ footer {
 
     .iglesia__container__subtitulo {
         font-size: 30px;
+        font-weight: 900;
     }
 
 
@@ -429,6 +430,9 @@ footer {
     /* FOOTER */
     footer {
         height: 20%;
+    }
+    .footer__social p{
+        font-size: 15px;
     }
 
 }
