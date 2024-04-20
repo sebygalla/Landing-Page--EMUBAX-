@@ -142,12 +142,12 @@ body {
 }
 
 .iglesia__container--parrafo {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    line-height: 1.8;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
     text-align: justify;
-    color: black;
-    margin-bottom: 20px;
+    color: #767676;
+    margin: 50px auto;
 }
 
 .iglesia__card--uno {
@@ -438,12 +438,6 @@ footer {
     /* Motorola g42 */
 @media screen and (max-width: 524px) {
 
-    .preloader__img {
-        width: 400px;
-        margin-bottom: 70px;
-        animation: move 2s ease-in-out;
-    }
-
     .iglesia__container--parrafo {
         width: 100%;
         font-size: 15px;
@@ -462,7 +456,6 @@ footer {
 
 .container {
     width: 100%;
-    margin: 1em auto;
 }
 
 .iglesia__container {
@@ -470,6 +463,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
   
 }
 
@@ -478,37 +472,14 @@ footer {
     gap: 0.5em;
 }
 
-    /* Footer */
-    footer {
-        width: 100%;
-      
-        height: 400px;
-        background-size: cover;
-        /* position: absolute; */
-        background-repeat: repeat;
+     /* FOOTER */
+     footer {
+        height: 30%;
     }
 
-    .footer__contenedor {
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-  
-        
-     
-        
+    .footer__social p {
+        font-size: 13px;
     }
 
-    .footer__contenedor p {
-        font-size: 10px;
-    }
-
-    .footer__social {   
-        margin: 50px auto 0 ;
-        z-index: 999;  
-    }
-
-    .footer__social i{
-        font-size: 25px;
-    }
 
 };

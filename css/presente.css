@@ -171,8 +171,9 @@ a {
 }
 
 .iglesia__container__parrafo {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 16px;
+    font-weight: 100;
     text-align: justify;
     color: #767676;
     margin: 50px auto;
@@ -189,7 +190,7 @@ a {
 }
 
 .iglesia__container__listado {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 16px;
     text-align: justify;
     margin: 30px auto;
@@ -416,7 +417,10 @@ footer {
     }
 
     .iglesia__container--titulo {
-        font-size: 60px;
+        font-size: 45px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0 0 60px 0;
     }
 
     .iglesia__container__titulo {
