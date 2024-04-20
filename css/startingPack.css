@@ -22,10 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
-
-    font-family: 'Poppins', sans-serif;
-    /* background: #30336b; */
-    /* background: #81ecec; */
+    font-family: 'Poppins', sans-serif; 
     background: yellow;
     scroll-behavior: smooth;
     position: relative;
@@ -219,12 +216,15 @@ body {
 
 
 
-/* footer */
+
+
+/* FOOTER */
 footer {
     width: 100%;
-    /* position: absolute;
+    height: 40%;
+    position: absolute;
     bottom: 0;
-    left: 0; */
+    left: 0;
     background: url(../imagenes/footer3.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -234,32 +234,40 @@ footer {
     align-items: center;
     justify-content: center;
     /* footer abajo */
-    margin-top: auto;
-
 
 }
 
 .footer__social i {
     color: white;
     font-size: 25px;
-    margin: 230px 30px 0px;
+    margin: 10px;
+    cursor: pointer;
 }
 
-.footer__contenedor {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    text-align: center;
-}
-
-.footer__contenedor p {
-    margin: 20px auto;
-    font-size: 14px;
-    font-weight: 600;
+.footer__social p {
     color: white;
-    z-index: 0;
-    text-align: center;
+    font-weight: 900;
 }
+
+
+.footer__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 15%;
+    padding: 20px;
+    gap: 5px;
+}
+
+.footer__social {
+    position: absolute;
+    bottom: 0;
+
+
+}
+
 
 
 
@@ -338,104 +346,15 @@ footer {
 
 
 
-    /* footer */
-    /* footer {
-        position: absolute;
-        margin: 2em auto -18em;
-    } */
-
-    .footer__social i {
-        font-size: 22px;
-        margin: 220px 10px 0px 0px;
+    /* FOOTER */
+    footer {
+        height: 30%;
     }
 
-    .footer__social {
-        z-index: 8;
-    }
 
 }
 
-
-
-/* A20 Samsung */
-/* @media screen and (max-width: 424px) {
-
-    .nav__logo img {
-        width: 180px;
-        margin-left: -26px;
-    }
-
-    .nav__subscribe {
-        font-size: 9px;
-        left: 0px;
-        top: 70px;
-        padding: 0;
-        margin: 0;
-    }
-
-    .nav__subscribe img {
-        width: 15px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .iglesia__container--info {
-        margin: 10em auto 0;
-
-    }
-
-    .iglesia__container--titulo {
-
-        line-height: 1.2;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-
-    .iglesia__container--parrafo {
-        width: 100%;
-        font-size: 17px;
-        line-height: 25px;
-        text-align: justify;
-    }
-
-    .iglesia__container__boton {
-        width: 100%;
-        height: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .boton {
-        font-size: 12px;
-        height: 50px;
-    }
-
-    .footer__contenedor {
-        width: 100%;
-        height: auto;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .footer__contenedor p {
-        font-size: 9px;
-        background: none;
-    }
-
-    .footer__social i {
-        margin: 190px 10px 0px 0px;
-    }
-
-    .footer__social {
-        z-index: 8;
-    }
-} */
-
-
-    /* Motorola g42 */
+/* Motorola g42 */
 @media screen and (max-width: 524px) {
 
     .iglesia__container--parrafo {
@@ -453,32 +372,31 @@ footer {
     .iglesia__card {
         width: 90%;
         height: 100px
-        
     }
 
     /* Iglesia Cards */
 
-.container {
-    width: 100%;
-}
+    .container {
+        width: 100%;
+    }
 
-.iglesia__container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  
-}
+    .iglesia__container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
 
-.iglesia__container--card {
-    /* margin: 10em auto 1em; */
-    gap: 0.5em;
-}
+    }
 
-     /* FOOTER */
-     footer {
-        height: 10%;
+    .iglesia__container--card {
+        /* margin: 10em auto 1em; */
+        gap: 0.5em;
+    }
+
+    /* FOOTER */
+    footer {
+        height: 30%;
     }
 
     .footer__social p {
@@ -486,4 +404,6 @@ footer {
     }
 
 
-};
+}
+
+;

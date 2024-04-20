@@ -22,7 +22,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
-
     font-family: 'Poppins', sans-serif;
     background: yellow;
     scroll-behavior: smooth;
@@ -261,7 +260,7 @@ a {
 
 
 
-/* footer */
+/* FOOTER */
 footer {
     width: 100%;
     height: 40%;
@@ -289,6 +288,7 @@ footer {
 
 .footer__social p {
     color: white;
+    font-weight: 900;
 }
 
 
@@ -393,6 +393,10 @@ footer {
         font-size: 30px;
     }
 
+    .iglesia__container__listado {
+        font-size: 16px;
+    }
+
     /* FOOTER */
     footer {
         height: 30%;
@@ -434,6 +438,10 @@ footer {
     .iglesia__container__subtitulo {
         font-size: 30px;
         font-weight: 900;
+    }
+
+    .iglesia__container__listado {
+        font-size: 20px;
     }
 
 

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Oswald:wght@400;700&display=swap');
 
 :root {
     /* --padding-container: 100px 0; */
@@ -21,8 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
-
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
     background: yellow;
     scroll-behavior: smooth;
     position: relative;
@@ -332,6 +332,7 @@ footer {
 
 .footer__social p {
     color: white;
+    font-weight: 900;
 }
 
 
